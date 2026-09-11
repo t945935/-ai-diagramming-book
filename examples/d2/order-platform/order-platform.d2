@@ -1,0 +1,20 @@
+direction: right
+
+client: 使用者瀏覽器
+
+platform: 平台管理範圍 {
+  web: Web 前端
+  orders: 訂單 API
+  db: 訂單資料庫 {
+    shape: cylinder
+  }
+}
+
+external: 外部服務 {
+  payment: 支付服務
+}
+
+client -> platform.web: 開啟頁面
+platform.web -> platform.orders: 建立訂單
+platform.orders -> external.payment: 請求付款
+platform.orders -> platform.db: 讀寫訂單

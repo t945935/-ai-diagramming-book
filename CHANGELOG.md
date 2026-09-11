@@ -11,4 +11,6 @@
 
 - 新增 draw.io 短篇、可編輯 XML 架構圖、預覽與拖曳／重新載入驗證紀錄。
 
-尚無正式隨書 Release；Mermaid 與 draw.io 試作可閱讀，其餘工具未完成。
+- 新增 D2 第 5 章、容器架構範例、需求／提示詞及直接 CLI 匯出的 SVG／PNG。
+
+尚無正式隨書 Release；Mermaid、D2 與 draw.io 試作可閱讀，其餘工具未完成。
