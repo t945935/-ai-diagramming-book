@@ -1,0 +1,30 @@
+{
+  "version": "31.4.5",
+  "before": {
+    "x": 560,
+    "y": 160
+  },
+  "after": {
+    "x": 560,
+    "y": 210
+  },
+  "label": "訂單服務 API",
+  "edges": [
+    {
+      "id": "e2",
+      "source": "web",
+      "target": "orders"
+    },
+    {
+      "id": "e3",
+      "source": "orders",
+      "target": "payment"
+    },
+    {
+      "id": "e4",
+      "source": "orders",
+      "target": "db"
+    }
+  ],
+  "reload": true
+}

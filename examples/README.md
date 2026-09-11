@@ -1,6 +1,6 @@
 # 範例交付標準
 
-目前可試用 [Mermaid 訂單流程](mermaid/order-flow/README.md)：已完成本機渲染、需求與視覺走查，限制詳見範例驗證紀錄。其餘工具仍為規劃中，尚無正式隨書 Release。
+目前可試用 [Mermaid 訂單流程](mermaid/order-flow/README.md)：已完成本機渲染、需求與視覺走查，限制詳見範例驗證紀錄。另有 [draw.io 可編輯架構試作](drawio/order-platform/README.md)，已驗證拖曳與模型重新載入；其餘工具仍為規劃中，尚無正式隨書 Release。
 
 每個範例需要：
 

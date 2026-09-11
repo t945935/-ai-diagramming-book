@@ -9,4 +9,6 @@
 - 新增 Mermaid 第 4 章樣章、R1–R8 需求、提示詞及 SVG／PNG 成品。
 - 新增固定 CLI 版本、lockfile 與本機驗證紀錄。
 
-尚無正式隨書 Release；Mermaid 範例可試用，其餘工具未完成。
+- 新增 draw.io 短篇、可編輯 XML 架構圖、預覽與拖曳／重新載入驗證紀錄。
+
+尚無正式隨書 Release；Mermaid 與 draw.io 試作可閱讀，其餘工具未完成。

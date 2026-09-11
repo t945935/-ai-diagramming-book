@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="AI diagramming book" type="device">
+  <diagram id="order-platform" name="平台總覽">
+    <mxGraphModel dx="1000" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="線上訂單與客服平台：同步呼叫視圖" style="text;html=0;align=center;fontFamily=Noto Sans CJK TC;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="60" y="20" width="1000" height="40" />
+        </mxCell>
+        <mxCell id="client" value="使用者瀏覽器" style="rounded=1;whiteSpace=wrap;html=0;fontFamily=Noto Sans CJK TC;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="60" y="160" width="170" height="70" />
+        </mxCell>
+        <mxCell id="web" value="Web 前端" style="rounded=1;whiteSpace=wrap;html=0;fontFamily=Noto Sans CJK TC;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="300" y="160" width="170" height="70" />
+        </mxCell>
+        <mxCell id="orders" value="訂單 API" style="rounded=1;whiteSpace=wrap;html=0;fontFamily=Noto Sans CJK TC;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="560" y="160" width="170" height="70" />
+        </mxCell>
+        <mxCell id="payment" value="外部支付服務" style="rounded=1;whiteSpace=wrap;html=0;fontFamily=Noto Sans CJK TC;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="870" y="160" width="210" height="70" />
+        </mxCell>
+        <mxCell id="db" value="訂單資料庫" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=15;rounded=1;whiteSpace=wrap;html=0;fontFamily=Noto Sans CJK TC;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="560" y="390" width="170" height="70" />
+        </mxCell>
+        <mxCell id="note" value="箭頭表示呼叫方向；回應省略。&#10;僅示意同步路徑；退款、回呼、庫存與客服模組另圖說明。" style="text;html=0;align=center;fontFamily=Noto Sans CJK TC;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="90" y="550" width="950" height="80" />
+        </mxCell>
+        <mxCell id="e1" value="HTTPS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;fontFamily=Noto Sans CJK TC;fontSize=16;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="client" target="web">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e2" value="建立訂單" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;fontFamily=Noto Sans CJK TC;fontSize=16;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="web" target="orders">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e3" value="請求付款" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;fontFamily=Noto Sans CJK TC;fontSize=16;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="orders" target="payment">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e4" value="讀寫訂單" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;fontFamily=Noto Sans CJK TC;fontSize=16;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="orders" target="db">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
