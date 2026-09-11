@@ -1,0 +1,117 @@
+{
+  "purpose": "手工判定的概念對照，不是無損轉換規格",
+  "sources": {
+    "mermaid": {
+      "path": "examples/mermaid/order-flow/order-flow.mmd",
+      "sha256": "70a4486ebaf4dff42a64fcbef30201f2c114438f91738b0df28611e4439f3fb9"
+    },
+    "d2": {
+      "path": "examples/d2/order-platform/order-platform.d2",
+      "sha256": "b799cba8082ef822de5634f379449f9ac6009d511b789847ad351bd8fb9b33be"
+    },
+    "plantuml_sequence": {
+      "path": "examples/plantuml/payment/payment-sequence.puml",
+      "sha256": "0a8a270806298a2af3a44dae5b5561632f7034152a94e7a6d71b741b24fa13da"
+    },
+    "plantuml_state": {
+      "path": "examples/plantuml/payment/order-state.puml",
+      "sha256": "eb49b88b4b81a49d4e213946802772ee18700051c2ce44b5a8053ae48b9f77f7"
+    },
+    "drawio": {
+      "path": "examples/drawio/order-platform/order-platform.drawio",
+      "sha256": "dc774bc35a3b7696c5b3f21864770110bec582fc0c3212364742b6ac714d5e6c"
+    },
+    "graphviz_data": {
+      "path": "examples/graphviz/dependencies/dependencies.json",
+      "sha256": "9d223ae26eafd205aa125efd1916c05032f522bb77494e4b893d99d29620b93f"
+    },
+    "graphviz_generator": {
+      "path": "scripts/graphviz_dependencies.py",
+      "sha256": "349711ca90dce089676a04265d9ee8250cc9adcb72b26cdadee9d558cb67c279"
+    },
+    "excalidraw": {
+      "path": "examples/excalidraw/requirements-board/requirements-board.excalidraw",
+      "sha256": "ac17c0ae0a08ead017b8a8fec08940b482df76afbab215152a8c471f9642bf62"
+    }
+  },
+  "concepts": [
+    {
+      "concept": "order_api",
+      "meaning": "訂單 API（服務介面角色）",
+      "references": [
+        {
+          "source": "d2",
+          "id": "platform.orders",
+          "evidence": "  orders: 訂單 API"
+        },
+        {
+          "source": "plantuml_sequence",
+          "id": "API",
+          "evidence": "participant \"訂單 API\" as API"
+        },
+        {
+          "source": "drawio",
+          "id": "orders",
+          "evidence": "訂單 API"
+        }
+      ],
+      "scope": "對齊本書介面角色；不是宣稱同一個部署實例"
+    },
+    {
+      "concept": "external_payment",
+      "meaning": "外部支付服務角色",
+      "references": [
+        {
+          "source": "d2",
+          "id": "external.payment",
+          "evidence": "  payment: 支付服務"
+        },
+        {
+          "source": "plantuml_sequence",
+          "id": "PSP",
+          "evidence": "participant \"支付服務\" as PSP"
+        },
+        {
+          "source": "drawio",
+          "id": "payment",
+          "evidence": "外部支付服務"
+        }
+      ],
+      "scope": "不得與 graphviz_data.payment 合併"
+    },
+    {
+      "concept": "internal_payment_module",
+      "meaning": "付款模組（程式依賴視圖）",
+      "references": [
+        {
+          "source": "graphviz_data",
+          "id": "payment",
+          "evidence": "付款模組"
+        }
+      ],
+      "scope": "模組依賴不是服務呼叫；未提供模組到外部供應商的部署映射"
+    },
+    {
+      "concept": "unknown_result_policy",
+      "meaning": "結果未知不可直接判定失敗",
+      "references": [
+        {
+          "source": "mermaid",
+          "id": "reconcile",
+          "evidence": "標記待確認：保留庫存並交由對帳"
+        },
+        {
+          "source": "plantuml_state",
+          "id": "Unknown",
+          "evidence": "state \"待確認\" as Unknown"
+        },
+        {
+          "source": "excalidraw",
+          "id": "known-result-text",
+          "evidence": "結果未知不等於失敗\n保留待確認狀態"
+        }
+      ],
+      "scope": "跨圖相關概念；流程動作、狀態與便條不是相同物件類型"
+    }
+  ]
+}

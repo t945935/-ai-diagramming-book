@@ -1,0 +1,13 @@
+test_d2_drawio_share_the_declared_call_endpoints (test_cross_tool_contract.CrossToolContractTests.test_d2_drawio_share_the_declared_call_endpoints) ... ok
+test_dot_missing_target_is_rejected (test_debugging_lab.DebuggingLabTests.test_dot_missing_target_is_rejected) ... ok
+test_mermaid_missing_bracket_is_rejected (test_debugging_lab.DebuggingLabTests.test_mermaid_missing_bracket_is_rejected) ... ok
+test_unknown_endpoint_is_rejected_before_output (test_debugging_lab.DebuggingLabTests.test_unknown_endpoint_is_rejected_before_output) ... ok
+test_valid_json_can_encode_reversed_dependencies (test_debugging_lab.DebuggingLabTests.test_valid_json_can_encode_reversed_dependencies) ... ok
+test_rejects_invalid_input_before_creating_outputs (test_graphviz_generator.DependencyTests.test_rejects_invalid_input_before_creating_outputs) ... ok
+test_reverse_transitive_impact_terminates_on_cycle (test_graphviz_generator.DependencyTests.test_reverse_transitive_impact_terminates_on_cycle) ... ok
+test_standalone_graphs_explain_arrow_semantics (test_graphviz_generator.DependencyTests.test_standalone_graphs_explain_arrow_semantics) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 3.806s
+
+OK

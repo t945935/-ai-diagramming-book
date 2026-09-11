@@ -1,0 +1,24 @@
+{
+  "command": [
+    "python3",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_cross_tool_contract.py",
+    "-v"
+  ],
+  "injected_failure": {
+    "modification": "Remove platform.orders -> platform.db only in temporary D2 copy",
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "test_d2_drawio_share_the_declared_call_endpoints (test_cross_tool_contract.CrossToolContractTests.test_d2_drawio_share_the_declared_call_endpoints) ... FAIL\n\n======================================================================\nFAIL: test_d2_drawio_share_the_declared_call_endpoints (test_cross_tool_contract.CrossToolContractTests.test_d2_drawio_share_the_declared_call_endpoints)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/j5/projects/-ai-diagramming-book/tests/test_cross_tool_contract.py\", line 37, in test_d2_drawio_share_the_declared_call_endpoints\n    self.assertEqual(len(d2_edges), len(expected), 'D2 edge count differs')\nAssertionError: 3 != 4 : D2 edge count differs\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+  },
+  "baseline": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_d2_drawio_share_the_declared_call_endpoints (test_cross_tool_contract.CrossToolContractTests.test_d2_drawio_share_the_declared_call_endpoints) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n"
+  }
+}

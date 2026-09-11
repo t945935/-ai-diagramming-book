@@ -1,0 +1,67 @@
+{
+  "checks": [
+    {
+      "concept": "order_api",
+      "source": "d2",
+      "id": "platform.orders",
+      "evidence_matches": true
+    },
+    {
+      "concept": "order_api",
+      "source": "plantuml_sequence",
+      "id": "API",
+      "evidence_matches": true
+    },
+    {
+      "concept": "order_api",
+      "source": "drawio",
+      "id": "orders",
+      "evidence_matches": true
+    },
+    {
+      "concept": "external_payment",
+      "source": "d2",
+      "id": "external.payment",
+      "evidence_matches": true
+    },
+    {
+      "concept": "external_payment",
+      "source": "plantuml_sequence",
+      "id": "PSP",
+      "evidence_matches": true
+    },
+    {
+      "concept": "external_payment",
+      "source": "drawio",
+      "id": "payment",
+      "evidence_matches": true
+    },
+    {
+      "concept": "internal_payment_module",
+      "source": "graphviz_data",
+      "id": "payment",
+      "evidence_matches": true
+    },
+    {
+      "concept": "unknown_result_policy",
+      "source": "mermaid",
+      "id": "reconcile",
+      "evidence_matches": true
+    },
+    {
+      "concept": "unknown_result_policy",
+      "source": "plantuml_state",
+      "id": "Unknown",
+      "evidence_matches": true
+    },
+    {
+      "concept": "unknown_result_policy",
+      "source": "excalidraw",
+      "id": "known-result-text",
+      "evidence_matches": true
+    }
+  ],
+  "checked_references": 10,
+  "method": "XML/JSON IDs and labels checked structurally; D2/Mermaid/PlantUML evidence snippets checked against the listed source snapshot",
+  "limitations": "Not general parsing or proof of semantic equivalence"
+}
