@@ -1,0 +1,33 @@
+@startuml
+skinparam defaultFontName Noto Sans CJK TC
+skinparam defaultFontSize 16
+hide footbox
+title 付款請求：初次結果分流
+participant "Web 前端" as Web
+participant "訂單 API" as API
+database "訂單資料庫" as DB
+participant "支付服務" as PSP
+note over Web,DB
+前置：資料驗證及庫存預留完成，訂單為待付款。
+本圖不包含付款前取消與建單失敗補償。
+end note
+Web -> API : 請求付款（orderId）
+API -> DB : 檢查待付款並轉為付款處理中
+DB --> API : 成功，取得固定 paymentKey
+API -> PSP : 發送付款（paymentKey）
+alt 已確認成功
+  PSP --> API : 成功結果
+  API -> DB : 更新為已付款
+  API --> Web : 訂單成立
+else 已確認失敗
+  PSP --> API : 明確拒絕
+  API -> DB : 關閉訂單並安排庫存釋放
+  API --> Web : 付款失敗
+else 等待期限已到，結果仍未知
+  API -> API : 觀察到逾時，不代表扣款失敗
+  API -> DB : 標記待確認，保留庫存
+  API --> Web : 待確認，不要求重新扣款
+  note over API,PSP : 後續交給有界對帳；不重送扣款請求。
+end
+note over API,DB : 假設狀態寫入成功；寫入失敗與釋放補償另訂規格。
+@enduml

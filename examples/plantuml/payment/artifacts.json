@@ -1,0 +1,38 @@
+[
+  {
+    "file": "order-state.puml",
+    "sha256": "eb49b88b4b81a49d4e213946802772ee18700051c2ce44b5a8053ae48b9f77f7"
+  },
+  {
+    "file": "order-state.svg",
+    "sha256": "9c90635784c087c21484c7289925a0f57aada831c731ef1e2932002ca4441ee4"
+  },
+  {
+    "file": "order-state.png",
+    "sha256": "c68615663648c7f6342216f308bf96801f92c395cab16c74f4a30668e4463913"
+  },
+  {
+    "file": "payment-model.puml",
+    "sha256": "c355580d32a45dca490a8d896c922afe29abb57ee1d06ed6c18788134a76d560"
+  },
+  {
+    "file": "payment-model.svg",
+    "sha256": "d4017959173b9ac86f347492b8fb58490c6cacabbeafbdafa9f6b4771306da6f"
+  },
+  {
+    "file": "payment-model.png",
+    "sha256": "74e9bea2c7e4d63dbbdf034bf36697748c6e490af12e6ccd1683444433aad28b"
+  },
+  {
+    "file": "payment-sequence.puml",
+    "sha256": "0a8a270806298a2af3a44dae5b5561632f7034152a94e7a6d71b741b24fa13da"
+  },
+  {
+    "file": "payment-sequence.svg",
+    "sha256": "6b26a7ee3aa2e268f06193a987df418a20d67a9b312700cdf478fdce09b64c1c"
+  },
+  {
+    "file": "payment-sequence.png",
+    "sha256": "8d0a32d54ebff7f0e5eb6e293fd355b5106037be690e5d331fdc1616054a0348"
+  }
+]

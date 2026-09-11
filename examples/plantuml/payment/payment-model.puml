@@ -1,0 +1,29 @@
+@startuml
+!pragma layout smetana
+skinparam defaultFontName Noto Sans CJK TC
+skinparam defaultFontSize 16
+hide empty methods
+title 訂單與付款紀錄：概念類別圖
+class "訂單" as Order {
+  orderId : String
+  status : OrderStatus
+}
+class "付款請求紀錄" as PaymentRequest {
+  paymentKey : String
+  result : PaymentResult
+}
+class "對帳查詢紀錄" as Query {
+  attemptNo : Integer
+  observedResult : PaymentResult
+}
+Order "1" -- "0..1" PaymentRequest : 對應
+PaymentRequest "1" -- "0..3" Query : 查詢
+note bottom of Order
+本例每筆訂單最多一次扣款請求。
+關閉後重下單屬新訂單，不增加舊單請求。
+end note
+note bottom of Query
+基數描述規格，不會自動強制資料庫限制。
+人工處理與重複回呼不在此模型內。
+end note
+@enduml

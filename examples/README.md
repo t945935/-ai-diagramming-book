@@ -1,6 +1,6 @@
 # 範例交付標準
 
-目前可試用 [Mermaid 訂單流程](mermaid/order-flow/README.md)：已完成本機渲染、需求與視覺走查，限制詳見範例驗證紀錄。另有 [draw.io 可編輯架構試作](drawio/order-platform/README.md)，已驗證拖曳與模型重新載入；另有 [D2 架構範例](d2/order-platform/README.md)，已驗證 dagre 佈局及 SVG／PNG 匯出；其餘工具仍為規劃中，尚無正式隨書 Release。
+目前可試用 [Mermaid 訂單流程](mermaid/order-flow/README.md)：已完成本機渲染、需求與視覺走查，限制詳見範例驗證紀錄。另有 [draw.io 可編輯架構試作](drawio/order-platform/README.md)，已驗證拖曳與模型重新載入；另有 [D2 架構範例](d2/order-platform/README.md)，已驗證 dagre 佈局及 SVG／PNG 匯出；另有 [PlantUML 三圖範例](plantuml/payment/README.md)，已完成語法與 SVG／PNG 渲染檢查；其餘工具仍為規劃中，尚無正式隨書 Release。
 
 每個範例需要：
 

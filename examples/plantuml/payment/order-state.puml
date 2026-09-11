@@ -1,0 +1,28 @@
+@startuml
+!pragma layout smetana
+skinparam defaultFontName Noto Sans CJK TC
+skinparam defaultFontSize 16
+hide empty description
+title 訂單付款狀態：含有界對帳
+state "待付款" as Pending
+state "付款處理中" as Processing
+state "待確認" as Unknown
+state "已付款" as Paid
+state "已關閉" as Closed
+state "人工處理" as Review
+[*] --> Pending : 驗證及庫存預留成功
+Pending --> Closed : 付款送出前取消／釋放庫存
+Pending --> Processing : 原子性取得付款處理權
+Processing --> Paid : 已確認成功
+Processing --> Closed : 已確認失敗／釋放庫存
+Processing --> Unknown : 逾時或無法確認
+Unknown --> Unknown : 仍未知 [n < 3]
+Unknown --> Paid : 查詢確認成功
+Unknown --> Closed : 查詢確認失敗／釋放庫存
+Unknown --> Review : 仍未知 [n = 3]
+legend bottom
+n 為本次查詢完成或逾時後的累計次數。
+只重試查詢，不重試扣款；上限 3 次是教學假設。
+人工處理是交接，保留庫存；後續規格另訂。
+endlegend
+@enduml

@@ -13,4 +13,6 @@
 
 - 新增 D2 第 5 章、容器架構範例、需求／提示詞及直接 CLI 匯出的 SVG／PNG。
 
-尚無正式隨書 Release；Mermaid、D2 與 draw.io 試作可閱讀，其餘工具未完成。
+- 新增 PlantUML 付款時序、狀態及概念類別圖，附三組原始檔與 SVG／PNG、樣章及驗證紀錄。
+
+尚無正式隨書 Release；Mermaid、D2、PlantUML 與 draw.io 試作可閱讀，其餘工具未完成。
