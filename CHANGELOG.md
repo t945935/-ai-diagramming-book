@@ -17,4 +17,6 @@
 
 - 新增 Graphviz 第 7 章、JSON 依賴產圖 CLI、反向影響子圖及三個測試方法。
 
-尚無正式隨書 Release；Mermaid、D2、PlantUML、Graphviz 與 draw.io 試作可閱讀，Excalidraw 未完成。
+- 新增 Excalidraw 第 9 章、三欄六便條原生場景、SVG／PNG、決策模板與拖曳驗證紀錄。
+
+六套工具第一輪範例齊備；尚無正式隨書 Release，跨平台與整本書仍未完成。

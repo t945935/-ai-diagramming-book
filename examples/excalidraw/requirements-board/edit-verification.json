@@ -1,0 +1,29 @@
+{
+  "before": [
+    {
+      "id": "question-owner",
+      "x": 410,
+      "y": 370
+    },
+    {
+      "id": "question-owner-text",
+      "x": 430,
+      "y": 412
+    }
+  ],
+  "after": [
+    {
+      "id": "question-owner",
+      "x": 450,
+      "y": 370
+    },
+    {
+      "id": "question-owner-text",
+      "x": 470,
+      "y": 412,
+      "containerId": "question-owner"
+    }
+  ],
+  "count": 18,
+  "reload_x": 450
+}
