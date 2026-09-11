@@ -1,0 +1,12 @@
+{
+  "nodes": {
+    "order": "訂單",
+    "payment": "支付"
+  },
+  "edges": [
+    [
+      "order",
+      "payments"
+    ]
+  ]
+}

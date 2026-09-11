@@ -1,0 +1,17 @@
+{
+  "nodes": {
+    "web": "前端",
+    "order": "訂單",
+    "payment": "支付"
+  },
+  "edges": [
+    [
+      "order",
+      "web"
+    ],
+    [
+      "payment",
+      "order"
+    ]
+  ]
+}

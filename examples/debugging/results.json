@@ -1,0 +1,199 @@
+{
+  "environment": {
+    "platform": "Linux-6.18.33.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "versions": [
+      {
+        "command": [
+          "python3",
+          "--version"
+        ],
+        "exit_code": 0,
+        "output": "Python 3.12.3\n"
+      },
+      {
+        "command": [
+          "node",
+          "--version"
+        ],
+        "exit_code": 0,
+        "output": "v24.21.0\n"
+      },
+      {
+        "command": [
+          "/home/j5/projects/-ai-diagramming-book/node_modules/.bin/mmdc",
+          "--version"
+        ],
+        "exit_code": 0,
+        "output": "11.17.0\n"
+      },
+      {
+        "command": [
+          "/home/j5/.local/share/diagram-tools/graphviz/usr/bin/dot",
+          "-V"
+        ],
+        "exit_code": 0,
+        "output": "dot - graphviz version 2.43.0 (0)\n"
+      }
+    ]
+  },
+  "runs": [
+    {
+      "case": "mermaid",
+      "variant": "broken",
+      "command": [
+        "/home/j5/projects/-ai-diagramming-book/node_modules/.bin/mmdc",
+        "-i",
+        "/home/j5/projects/-ai-diagramming-book/examples/debugging/mermaid/broken.mmd",
+        "-o",
+        "/tmp/tmph6p8atdc/mermaid-broken.svg",
+        "-p",
+        "/home/j5/.hermes/mermaid-puppeteer.json"
+      ],
+      "exit_code": 1,
+      "stdout": "Generating single mermaid chart\n",
+      "stderr": "\nError: Parse error on line 2:\n...R    A[付款結果未知 --> B[待確認]\n----------------------^\nExpecting 'SQE', 'DOUBLECIRCLEEND', 'PE', '-)', 'STADIUMEND', 'SUBROUTINEEND', 'PIPE', 'CYLINDEREND', 'DIAMOND_STOP', 'TAGEND', 'TRAPEND', 'INVTRAPEND', 'UNICODE_TEXT', 'TEXT', 'TAGSTART', got 'SQS'\nParser.parseError (https://mermaid-cli-intercept.invalid/home/j5/projects/-ai-diagramming-book/node_modules/mermaid/dist/chunks/mermaid.esm/chunk-6HLVECFW.mjs:1523:21)\n    at #evaluate (file:///home/j5/projects/-ai-diagramming-book/node_modules/puppeteer-core/lib/puppeteer/cdp/ExecutionContext.js:402:19)\n    at async ExecutionContext.evaluate (file:///home/j5/projects/-ai-diagramming-book/node_modules/puppeteer-core/lib/puppeteer/cdp/ExecutionContext.js:288:16)\n    at async IsolatedWorld.evaluate (file:///home/j5/projects/-ai-diagramming-book/node_modules/puppeteer-core/lib/puppeteer/cdp/IsolatedWorld.js:104:16)\n    at async CdpJSHandle.evaluate (file:///home/j5/projects/-ai-diagramming-book/node_modules/puppeteer-core/lib/puppeteer/api/JSHandle.js:154:20)\n    at async CdpElementHandle.evaluate (file:///home/j5/projects/-ai-diagramming-book/node_modules/puppeteer-core/lib/puppeteer/api/ElementHandle.js:343:20)\n    at async CdpElementHandle.$eval (file:///home/j5/projects/-ai-diagramming-book/node_modules/puppeteer-core/lib/puppeteer/api/ElementHandle.js:497:24)\n    at async CdpFrame.$eval (file:///home/j5/projects/-ai-diagramming-book/node_modules/puppeteer-core/lib/puppeteer/api/Frame.js:469:20)\n    at async CdpPage.$eval (file:///home/j5/projects/-ai-diagramming-book/node_modules/puppeteer-core/lib/puppeteer/api/Page.js:462:20)\n    at async renderMermaid (file:///home/j5/projects/-ai-diagramming-book/node_modules/@mermaid-js/mermaid-cli/src/index.js:480:22)\n    at fromText (https://mermaid-cli-intercept.invalid/home/j5/projects/-ai-diagramming-book/node_modules/mermaid/dist/mermaid.esm.mjs:1327:17)\n\n"
+    },
+    {
+      "case": "mermaid",
+      "variant": "fixed",
+      "command": [
+        "/home/j5/projects/-ai-diagramming-book/node_modules/.bin/mmdc",
+        "-i",
+        "/home/j5/projects/-ai-diagramming-book/examples/debugging/mermaid/fixed.mmd",
+        "-o",
+        "/tmp/tmph6p8atdc/mermaid-fixed.svg",
+        "-p",
+        "/home/j5/.hermes/mermaid-puppeteer.json"
+      ],
+      "exit_code": 0,
+      "stdout": "Generating single mermaid chart\n",
+      "stderr": ""
+    },
+    {
+      "case": "dot",
+      "variant": "broken",
+      "command": [
+        "/home/j5/.local/share/diagram-tools/graphviz/usr/bin/dot",
+        "-Tsvg",
+        "/home/j5/projects/-ai-diagramming-book/examples/debugging/dot/broken.dot",
+        "-o",
+        "/tmp/tmph6p8atdc/dot-broken.svg"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Error: /home/j5/projects/-ai-diagramming-book/examples/debugging/dot/broken.dot: syntax error in line 2 near ';'\n"
+    },
+    {
+      "case": "dot",
+      "variant": "fixed",
+      "command": [
+        "/home/j5/.local/share/diagram-tools/graphviz/usr/bin/dot",
+        "-Tsvg",
+        "/home/j5/projects/-ai-diagramming-book/examples/debugging/dot/fixed.dot",
+        "-o",
+        "/tmp/tmph6p8atdc/dot-fixed.svg"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "case": "direction",
+      "variant": "broken",
+      "command": [
+        "python3",
+        "/home/j5/projects/-ai-diagramming-book/scripts/graphviz_dependencies.py",
+        "/home/j5/projects/-ai-diagramming-book/examples/debugging/direction/broken.json",
+        "/tmp/tmph6p8atdc/direction-broken",
+        "--changed",
+        "payment"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "impact": {
+        "changed": "payment",
+        "affected": [
+          "payment"
+        ],
+        "edges": []
+      }
+    },
+    {
+      "case": "direction",
+      "variant": "fixed",
+      "command": [
+        "python3",
+        "/home/j5/projects/-ai-diagramming-book/scripts/graphviz_dependencies.py",
+        "/home/j5/projects/-ai-diagramming-book/examples/debugging/direction/fixed.json",
+        "/tmp/tmph6p8atdc/direction-fixed",
+        "--changed",
+        "payment"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "impact": {
+        "changed": "payment",
+        "affected": [
+          "order",
+          "payment",
+          "web"
+        ],
+        "edges": [
+          [
+            "order",
+            "payment"
+          ],
+          [
+            "web",
+            "order"
+          ]
+        ]
+      }
+    },
+    {
+      "case": "endpoint",
+      "variant": "broken",
+      "command": [
+        "python3",
+        "/home/j5/projects/-ai-diagramming-book/scripts/graphviz_dependencies.py",
+        "/home/j5/projects/-ai-diagramming-book/examples/debugging/endpoint/broken.json",
+        "/tmp/tmph6p8atdc/endpoint-broken",
+        "--changed",
+        "payment"
+      ],
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "usage: graphviz_dependencies.py [-h] --changed CHANGED input output\ngraphviz_dependencies.py: error: invalid input: each edge must name two existing nodes\n"
+    },
+    {
+      "case": "endpoint",
+      "variant": "fixed",
+      "command": [
+        "python3",
+        "/home/j5/projects/-ai-diagramming-book/scripts/graphviz_dependencies.py",
+        "/home/j5/projects/-ai-diagramming-book/examples/debugging/endpoint/fixed.json",
+        "/tmp/tmph6p8atdc/endpoint-fixed",
+        "--changed",
+        "payment"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "impact": {
+        "changed": "payment",
+        "affected": [
+          "order",
+          "payment"
+        ],
+        "edges": [
+          [
+            "order",
+            "payment"
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 ## 不使用 Git
 
-在儲存庫首頁按「Code → Download ZIP」，解壓縮後開啟 README.md。目前 ZIP 包含讀者服務文件、Mermaid 樣章、訂單範例、D2 架構樣章、PlantUML 付款三圖、Graphviz 依賴分析、draw.io 可編輯架構試作及 Excalidraw 需求白板，仍不是正式隨書版本。
+在儲存庫首頁按「Code → Download ZIP」，解壓縮後開啟 README.md。目前 ZIP 包含讀者服務文件、Mermaid 樣章、訂單範例、D2 架構樣章、PlantUML 付款三圖、Graphviz 依賴分析、draw.io 可編輯架構試作及 Excalidraw 需求白板，另含第 10 章除錯反例與修正版，仍不是正式隨書版本。
 
 正式隨書版本發布後，優先從 Releases 下載對應書籍版本，不要假設 main 與紙本完全一致。
 

@@ -11,6 +11,7 @@
 - [初次使用與下載](docs/getting-started.md)
 - [全書規劃與章節導覽](docs/chapters.md)
 - [工具範例的交付標準](examples/README.md)
+- [第 10 章：AI 繪圖除錯室](docs/chapters/10-debugging.md)／[反例與修正版](examples/debugging/README.md)
 - [勘誤紀錄](docs/errata.md)
 - [問答與交流](https://github.com/t945935/-ai-diagramming-book/discussions)
 - [回報勘誤或範例問題](https://github.com/t945935/-ai-diagramming-book/issues/new/choose)
