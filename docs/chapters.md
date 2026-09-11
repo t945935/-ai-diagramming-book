@@ -1,6 +1,6 @@
 # 全書規劃與章節導覽
 
-暫定書名：《讓 AI 畫對圖：六大繪圖工具的實作與協作》。本頁是大綱與進度索引。第 4 章已有[樣章草稿](chapters/04-mermaid.md)，第 8 章另有 [draw.io 短篇試作](chapters/08-drawio.md)，第 5 章已有 [D2 樣章](chapters/05-d2.md)；第 6 章已有 [PlantUML 樣章](chapters/06-plantuml.md)；第 7 章已有 [Graphviz 樣章](chapters/07-graphviz.md)；第 9 章已有 [Excalidraw 樣章](chapters/09-excalidraw.md)。六套工具第一輪範例齊備；第 10 章已有 [AI 繪圖除錯室](chapters/10-debugging.md)，第 11 章已有 [跨工具協作與轉換限制](chapters/11-cross-tool.md)，其餘章節仍為規劃中。
+暫定書名：《讓 AI 畫對圖：六大繪圖工具的實作與協作》。本頁是大綱與進度索引。第 4 章已有[樣章草稿](chapters/04-mermaid.md)，第 8 章另有 [draw.io 短篇試作](chapters/08-drawio.md)，第 5 章已有 [D2 樣章](chapters/05-d2.md)；第 6 章已有 [PlantUML 樣章](chapters/06-plantuml.md)；第 7 章已有 [Graphviz 樣章](chapters/07-graphviz.md)；第 9 章已有 [Excalidraw 樣章](chapters/09-excalidraw.md)。六套工具第一輪範例齊備；第 10 章已有 [AI 繪圖除錯室](chapters/10-debugging.md)，第 11 章已有 [跨工具協作與轉換限制](chapters/11-cross-tool.md)，第 12 章已有 [版本管理、自動化與安全](chapters/12-automation-security.md)，其餘章節仍為規劃中。
 
 ## 第一篇：先把問題說清楚
 
@@ -35,4 +35,4 @@
 
 確認案例 → 官方文件查證與最小範例 → Mermaid 樣章及 draw.io 短篇試作 → 工具章與綜合專案 → 乾淨環境重做 → 排版與發布。
 
-GitHub 讀者服務包含章節索引、範例下載、問題回報、交流與版本勘誤。Pages 網站與自動化渲染尚未部署，授權方案待確認。
+GitHub 讀者服務包含章節索引、範例下載、問題回報、交流與版本勘誤。核心契約 GitHub Actions 已部署並實測成功；Pages 網站與完整自動化渲染尚未部署，授權方案待確認。

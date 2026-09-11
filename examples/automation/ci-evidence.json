@@ -1,0 +1,70 @@
+{
+  "run": {
+    "id": 34585128709,
+    "name": "Core diagram contracts",
+    "head_sha": "c61557405d3edfbb9d991911459b4edfbe2e036e",
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/t945935/-ai-diagramming-book/actions/runs/34585128709",
+    "event": "push"
+  },
+  "jobs": [
+    {
+      "id": 103217452564,
+      "name": "core",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/t945935/-ai-diagramming-book/actions/runs/34585128709/job/103217452564",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-09-11T09:37:16Z",
+          "completed_at": "2026-09-11T09:37:16Z"
+        },
+        {
+          "name": "Check out source without persisted credentials",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-09-11T09:37:16Z",
+          "completed_at": "2026-09-11T09:37:17Z"
+        },
+        {
+          "name": "Record runner tools",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-09-11T09:37:17Z",
+          "completed_at": "2026-09-11T09:37:17Z"
+        },
+        {
+          "name": "Check dependency and shared endpoint contracts",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-09-11T09:37:17Z",
+          "completed_at": "2026-09-11T09:37:18Z"
+        },
+        {
+          "name": "Post Check out source without persisted credentials",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2026-09-11T09:37:18Z",
+          "completed_at": "2026-09-11T09:37:18Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-09-11T09:37:18Z",
+          "completed_at": "2026-09-11T09:37:18Z"
+        }
+      ]
+    }
+  ]
+}

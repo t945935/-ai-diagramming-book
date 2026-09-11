@@ -1,0 +1,29 @@
+[
+  {
+    "command": [
+      "make",
+      "check-core"
+    ],
+    "exit_code": 0,
+    "stdout": "python3 -m unittest discover -s tests -p 'test_graphviz_generator.py' -v\npython3 -m unittest discover -s tests -p 'test_cross_tool_contract.py' -v\n",
+    "stderr": "test_rejects_invalid_input_before_creating_outputs (test_graphviz_generator.DependencyTests.test_rejects_invalid_input_before_creating_outputs) ... ok\ntest_reverse_transitive_impact_terminates_on_cycle (test_graphviz_generator.DependencyTests.test_reverse_transitive_impact_terminates_on_cycle) ... ok\ntest_standalone_graphs_explain_arrow_semantics (test_graphviz_generator.DependencyTests.test_standalone_graphs_explain_arrow_semantics) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.169s\n\nOK\ntest_d2_drawio_share_the_declared_call_endpoints (test_cross_tool_contract.CrossToolContractTests.test_d2_drawio_share_the_declared_call_endpoints) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.002s\n\nOK\n"
+  },
+  {
+    "command": [
+      "make",
+      "check-full"
+    ],
+    "exit_code": 0,
+    "stdout": "python3 -m unittest discover -s tests -v\n",
+    "stderr": "test_d2_drawio_share_the_declared_call_endpoints (test_cross_tool_contract.CrossToolContractTests.test_d2_drawio_share_the_declared_call_endpoints) ... ok\ntest_dot_missing_target_is_rejected (test_debugging_lab.DebuggingLabTests.test_dot_missing_target_is_rejected) ... ok\ntest_mermaid_missing_bracket_is_rejected (test_debugging_lab.DebuggingLabTests.test_mermaid_missing_bracket_is_rejected) ... ok\ntest_unknown_endpoint_is_rejected_before_output (test_debugging_lab.DebuggingLabTests.test_unknown_endpoint_is_rejected_before_output) ... ok\ntest_valid_json_can_encode_reversed_dependencies (test_debugging_lab.DebuggingLabTests.test_valid_json_can_encode_reversed_dependencies) ... ok\ntest_rejects_invalid_input_before_creating_outputs (test_graphviz_generator.DependencyTests.test_rejects_invalid_input_before_creating_outputs) ... ok\ntest_reverse_transitive_impact_terminates_on_cycle (test_graphviz_generator.DependencyTests.test_reverse_transitive_impact_terminates_on_cycle) ... ok\ntest_standalone_graphs_explain_arrow_semantics (test_graphviz_generator.DependencyTests.test_standalone_graphs_explain_arrow_semantics) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 4.175s\n\nOK\n"
+  },
+  {
+    "command": [
+      "make",
+      "audit-npm"
+    ],
+    "exit_code": 0,
+    "stdout": "npm audit\nfound 0 vulnerabilities\n",
+    "stderr": ""
+  }
+]
