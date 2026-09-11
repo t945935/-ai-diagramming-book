@@ -1,0 +1,14 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*oauth*.json
+*device-auth*.json
+*.pem
+*.key
+# Local build output
+node_modules/
+.venv/
+__pycache__/
+_site/
+.DS_Store

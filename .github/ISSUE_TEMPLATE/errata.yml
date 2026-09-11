@@ -1,0 +1,31 @@
+name: 書籍或圖表勘誤
+description: 回報敘述、圖表邏輯或連結錯誤
+title: "[勘誤] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 書籍／Repo 版本
+      placeholder: 未出版／main，或版本與 commit
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: 章節、頁碼或檔案路徑
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 原文、問題與建議修正
+      description: 請提供可核對的上下文與來源，不要貼整本書。
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隱私確認
+      options:
+        - label: 我已移除密碼、金鑰、驗證碼、個資及未授權的內部資料。
+          required: true

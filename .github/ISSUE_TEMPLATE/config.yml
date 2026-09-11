@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 一般問答與內容建議
+    url: https://github.com/t945935/-ai-diagramming-book/discussions
+    about: 操作疑問、工具選擇與作品分享請使用 Discussions。
