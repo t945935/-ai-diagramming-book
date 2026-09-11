@@ -1,6 +1,6 @@
 # 範例交付標準
 
-目前沒有已發布範例。Mermaid、D2、PlantUML、Graphviz、draw.io 與 Excalidraw 的範例，會在完成實作與驗證後逐批加入；不預先建立假成品或空的成功紀錄。
+目前可試用 [Mermaid 訂單流程](mermaid/order-flow/README.md)：已完成本機渲染、需求與視覺走查，限制詳見範例驗證紀錄。其餘工具仍為規劃中，尚無正式隨書 Release。
 
 每個範例需要：
 

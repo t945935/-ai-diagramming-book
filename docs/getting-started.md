@@ -2,7 +2,7 @@
 
 ## 不使用 Git
 
-在儲存庫首頁按「Code → Download ZIP」，解壓縮後開啟 README.md。目前 ZIP 只有規劃與讀者服務文件，沒有正式範例。
+在儲存庫首頁按「Code → Download ZIP」，解壓縮後開啟 README.md。目前 ZIP 包含讀者服務文件、Mermaid 樣章與已完成本機驗證的訂單範例，仍不是正式隨書版本。
 
 正式隨書版本發布後，優先從 Releases 下載對應書籍版本，不要假設 main 與紙本完全一致。
 

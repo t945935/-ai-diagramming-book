@@ -1,0 +1,13 @@
+{
+  "name": "ai-diagramming-book-examples",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Verified companion diagrams",
+  "scripts": {
+    "render:mermaid": "mmdc -i examples/mermaid/order-flow/order-flow.mmd -o examples/mermaid/order-flow/order-flow.svg -c examples/mermaid/mermaid-config.json",
+    "render:mermaid:png": "mmdc -i examples/mermaid/order-flow/order-flow.mmd -o examples/mermaid/order-flow/order-flow.png -c examples/mermaid/mermaid-config.json"
+  },
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "11.17.0"
+  }
+}

@@ -1,0 +1,15 @@
+flowchart TD
+    accTitle: 訂單成立、取消及付款結果流程
+    accDescr: 提交後驗證資料並預留庫存，付款前可取消。付款結果區分成功、明確失敗與待確認；只有明確失敗或付款前取消才釋放預留庫存。
+    submit["提交訂單"] --> valid{"資料有效？"}
+    valid -->|否| rejected["拒絕訂單：提示修正"]
+    valid -->|是| reserve{"預留庫存成功？"}
+    reserve -->|否| unavailable["拒絕訂單：庫存不足"]
+    reserve -->|是| pending["建立待付款訂單"]
+    pending --> cancel{"付款送出前取消？"}
+    cancel -->|是| cancelled["取消訂單並釋放預留庫存"]
+    cancel -->|否| pay["送出付款請求"]
+    pay --> result{"付款結果？"}
+    result -->|成功| confirmed["訂單成立：轉為已付款"]
+    result -->|明確失敗| failed["付款失敗：關閉訂單並釋放庫存"]
+    result -->|逾時或未知| reconcile["標記待確認：保留庫存並交由對帳"]

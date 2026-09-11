@@ -1,0 +1,9 @@
+{
+  "securityLevel": "strict",
+  "theme": "default",
+  "fontFamily": "Noto Sans CJK TC, sans-serif",
+  "flowchart": {
+    "htmlLabels": false,
+    "curve": "linear"
+  }
+}
