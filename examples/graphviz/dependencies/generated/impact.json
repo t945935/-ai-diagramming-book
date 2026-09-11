@@ -1,0 +1,56 @@
+{
+  "changed": "payment",
+  "affected": [
+    "admin",
+    "checkout",
+    "invoice",
+    "mobile",
+    "orders",
+    "payment",
+    "reconcile",
+    "refund",
+    "web"
+  ],
+  "edges": [
+    [
+      "admin",
+      "orders"
+    ],
+    [
+      "admin",
+      "refund"
+    ],
+    [
+      "checkout",
+      "orders"
+    ],
+    [
+      "invoice",
+      "orders"
+    ],
+    [
+      "mobile",
+      "checkout"
+    ],
+    [
+      "orders",
+      "invoice"
+    ],
+    [
+      "orders",
+      "payment"
+    ],
+    [
+      "reconcile",
+      "payment"
+    ],
+    [
+      "refund",
+      "payment"
+    ],
+    [
+      "web",
+      "checkout"
+    ]
+  ]
+}

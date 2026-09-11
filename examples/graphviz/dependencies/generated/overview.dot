@@ -1,0 +1,38 @@
+digraph dependencies {
+  graph [rankdir=LR, pad=0.3, nodesep=0.5, ranksep=0.8, fontname="Noto Sans CJK TC", fontsize=14, labelloc=b, label="A → B：A 依賴 B；影響分析反向追蹤。\n潛在檢查範圍，不代表必然故障。"];
+  node [shape=box, style="rounded,filled", fillcolor="#e8f0fe", fontname="Noto Sans CJK TC", fontsize=16];
+  edge [color="#566573"];
+  "admin" [label="營運後台"];
+  "auth" [label="驗證模組"];
+  "checkout" [label="結帳模組"];
+  "email_sdk" [label="郵件 SDK"];
+  "inventory" [label="庫存模組"];
+  "invoice" [label="發票模組"];
+  "mobile" [label="行動前端"];
+  "notify" [label="通知模組"];
+  "order_db" [label="訂單儲存"];
+  "orders" [label="訂單模組"];
+  "payment" [label="付款模組"];
+  "payment_sdk" [label="支付 SDK"];
+  "reconcile" [label="對帳工作"];
+  "refund" [label="退款模組"];
+  "stock_db" [label="庫存儲存"];
+  "web" [label="購物前端"];
+  "admin" -> "orders";
+  "admin" -> "refund";
+  "checkout" -> "auth";
+  "checkout" -> "orders";
+  "inventory" -> "stock_db";
+  "invoice" -> "orders";
+  "mobile" -> "checkout";
+  "notify" -> "email_sdk";
+  "orders" -> "inventory";
+  "orders" -> "invoice";
+  "orders" -> "notify";
+  "orders" -> "order_db";
+  "orders" -> "payment";
+  "payment" -> "payment_sdk";
+  "reconcile" -> "payment";
+  "refund" -> "payment";
+  "web" -> "checkout";
+}

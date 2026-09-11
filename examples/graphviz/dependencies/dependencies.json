@@ -1,0 +1,90 @@
+{
+  "nodes": {
+    "web": "購物前端",
+    "mobile": "行動前端",
+    "admin": "營運後台",
+    "checkout": "結帳模組",
+    "orders": "訂單模組",
+    "invoice": "發票模組",
+    "refund": "退款模組",
+    "payment": "付款模組",
+    "payment_sdk": "支付 SDK",
+    "inventory": "庫存模組",
+    "stock_db": "庫存儲存",
+    "order_db": "訂單儲存",
+    "notify": "通知模組",
+    "email_sdk": "郵件 SDK",
+    "auth": "驗證模組",
+    "reconcile": "對帳工作"
+  },
+  "edges": [
+    [
+      "web",
+      "checkout"
+    ],
+    [
+      "mobile",
+      "checkout"
+    ],
+    [
+      "admin",
+      "refund"
+    ],
+    [
+      "admin",
+      "orders"
+    ],
+    [
+      "checkout",
+      "orders"
+    ],
+    [
+      "checkout",
+      "auth"
+    ],
+    [
+      "orders",
+      "payment"
+    ],
+    [
+      "orders",
+      "inventory"
+    ],
+    [
+      "orders",
+      "order_db"
+    ],
+    [
+      "orders",
+      "invoice"
+    ],
+    [
+      "invoice",
+      "orders"
+    ],
+    [
+      "refund",
+      "payment"
+    ],
+    [
+      "reconcile",
+      "payment"
+    ],
+    [
+      "payment",
+      "payment_sdk"
+    ],
+    [
+      "inventory",
+      "stock_db"
+    ],
+    [
+      "orders",
+      "notify"
+    ],
+    [
+      "notify",
+      "email_sdk"
+    ]
+  ]
+}

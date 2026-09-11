@@ -1,0 +1,24 @@
+digraph dependencies {
+  graph [rankdir=LR, pad=0.3, nodesep=0.5, ranksep=0.8, fontname="Noto Sans CJK TC", fontsize=14, labelloc=b, label="A → B：A 依賴 B；影響分析反向追蹤。\n潛在檢查範圍，不代表必然故障。"];
+  node [shape=box, style="rounded,filled", fillcolor="#e8f0fe", fontname="Noto Sans CJK TC", fontsize=16];
+  edge [color="#566573"];
+  "admin" [label="營運後台"];
+  "checkout" [label="結帳模組"];
+  "invoice" [label="發票模組"];
+  "mobile" [label="行動前端"];
+  "orders" [label="訂單模組"];
+  "payment" [label="付款模組（變更起點）", fillcolor="#ffe0b2"];
+  "reconcile" [label="對帳工作"];
+  "refund" [label="退款模組"];
+  "web" [label="購物前端"];
+  "admin" -> "orders";
+  "admin" -> "refund";
+  "checkout" -> "orders";
+  "invoice" -> "orders";
+  "mobile" -> "checkout";
+  "orders" -> "invoice";
+  "orders" -> "payment";
+  "reconcile" -> "payment";
+  "refund" -> "payment";
+  "web" -> "checkout";
+}

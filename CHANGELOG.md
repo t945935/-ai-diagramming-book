@@ -15,4 +15,6 @@
 
 - 新增 PlantUML 付款時序、狀態及概念類別圖，附三組原始檔與 SVG／PNG、樣章及驗證紀錄。
 
-尚無正式隨書 Release；Mermaid、D2、PlantUML 與 draw.io 試作可閱讀，其餘工具未完成。
+- 新增 Graphviz 第 7 章、JSON 依賴產圖 CLI、反向影響子圖及三個測試方法。
+
+尚無正式隨書 Release；Mermaid、D2、PlantUML、Graphviz 與 draw.io 試作可閱讀，Excalidraw 未完成。

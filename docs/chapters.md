@@ -1,6 +1,6 @@
 # 全書規劃與章節導覽
 
-暫定書名：《讓 AI 畫對圖：六大繪圖工具的實作與協作》。本頁是大綱與進度索引。第 4 章已有[樣章草稿](chapters/04-mermaid.md)，第 8 章另有 [draw.io 短篇試作](chapters/08-drawio.md)，第 5 章已有 [D2 樣章](chapters/05-d2.md)；第 6 章已有 [PlantUML 樣章](chapters/06-plantuml.md)；其餘章節仍為規劃中。
+暫定書名：《讓 AI 畫對圖：六大繪圖工具的實作與協作》。本頁是大綱與進度索引。第 4 章已有[樣章草稿](chapters/04-mermaid.md)，第 8 章另有 [draw.io 短篇試作](chapters/08-drawio.md)，第 5 章已有 [D2 樣章](chapters/05-d2.md)；第 6 章已有 [PlantUML 樣章](chapters/06-plantuml.md)；第 7 章已有 [Graphviz 樣章](chapters/07-graphviz.md)；其餘章節仍為規劃中。
 
 ## 第一篇：先把問題說清楚
 

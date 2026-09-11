@@ -1,0 +1,38 @@
+{
+  "counts": {
+    "overview_nodes": 16,
+    "overview_edges": 17,
+    "impact_nodes": 9,
+    "impact_edges": 10
+  },
+  "artifacts": [
+    {
+      "file": "generated/impact.dot",
+      "sha256": "7e05b66624e33a1bcd9d3455427f4a1f4733ba404f77e73cb86d3d1b25516f2e"
+    },
+    {
+      "file": "generated/impact.json",
+      "sha256": "8e6d2809c9307fe9d4c1ab3a5f6cf4a452e4949ac13f966fe7c8c873a20c5390"
+    },
+    {
+      "file": "generated/impact.png",
+      "sha256": "e68602a7953798c5854ebd0f10089f37fb36fa9184a2d1a5221059f447e57e40"
+    },
+    {
+      "file": "generated/impact.svg",
+      "sha256": "7c812788137efcc9abcfade4468ad46b449bb6550345d86f508977b4dae59393"
+    },
+    {
+      "file": "generated/overview.dot",
+      "sha256": "4b97bd85d2514a070f3325bee381e461f05db5db276acac3fb766be2716617c9"
+    },
+    {
+      "file": "generated/overview.png",
+      "sha256": "683e1d9985797fc6eae6ce2e9a75a4d0894b51f14d2018d54c8d4f74c6b55a7e"
+    },
+    {
+      "file": "generated/overview.svg",
+      "sha256": "9df755cbb13cfcb213f839bb85c1fd60728c090b76c711437bb9e2e1e11e5b2d"
+    }
+  ]
+}
