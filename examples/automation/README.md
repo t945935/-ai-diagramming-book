@@ -16,14 +16,15 @@ make check-full
 make audit-npm
 ```
 
-check-core 只需 Python 3 與 make，共四個測試。沒有 make 時：
+第 13 章新增退款規格測試後，check-core 只需 Python 3 與 make，共六個測試。沒有 make 時：
 
 ```sh
 python3 -m unittest discover -s tests -p 'test_graphviz_generator.py' -v
 python3 -m unittest discover -s tests -p 'test_cross_tool_contract.py' -v
+python3 -m unittest discover -s tests -p 'test_refund_change.py' -v
 ```
 
-check-full 為目前八個 Python 測試，需要 [除錯實驗室](../debugging/README.md) 說明的 Mermaid CLI、Chromium 與 Graphviz 環境。可用 DOT、MMDC、PUPPETEER_CONFIG 指定自身工具；不可照抄維護者的絕對路徑。正常檢查不要設定 BOOK_SOURCE_ROOT。
+check-full 為目前十個 Python 測試，需要 [除錯實驗室](../debugging/README.md) 說明的 Mermaid CLI、Chromium 與 Graphviz 環境。可用 DOT、MMDC、PUPPETEER_CONFIG 指定自身工具；不可照抄維護者的絕對路徑。正常檢查不要設定 BOOK_SOURCE_ROOT 或 REFUND_SCENARIOS。
 
 audit-npm 需要專案 npm 套件資訊與網路，只查 npm 公告，不掃描秘密或圖檔中的個資。沒有工具時應回報失敗，不要略過後說通過。
 

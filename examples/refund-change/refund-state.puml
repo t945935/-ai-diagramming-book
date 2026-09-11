@@ -1,0 +1,24 @@
+@startuml
+!pragma layout smetana
+skinparam defaultFontName Noto Sans CJK TC
+skinparam defaultFontSize 16
+hide empty description
+title 部分退款：單筆退款紀錄狀態
+state "處理中" as Processing
+state "待確認" as Unknown
+state "已成功" as Succeeded
+state "已失敗" as Failed
+[*] --> Processing : 已驗證且原子占用額度
+Processing --> Succeeded : 確認成功／結算一次
+Processing --> Failed : 確認失敗／釋放占用
+Processing --> Unknown : 逾時或無法確認
+Unknown --> Succeeded : 查詢確認成功／結算一次
+Unknown --> Failed : 查詢確認失敗／釋放占用
+legend bottom
+可退額度＝已付－已退－處理中及未知的占用。
+未知結果持續保留占用，人工接手也不自動釋放。
+終態重複通知：回傳既有紀錄，不重複結算。
+衝突通知需查核，不直接反轉終態。
+本圖不包含訂單整體狀態與供應商對帳實作。
+endlegend
+@enduml

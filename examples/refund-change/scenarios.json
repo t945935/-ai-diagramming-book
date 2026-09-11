@@ -1,0 +1,112 @@
+{
+  "currency": "TWD",
+  "unit": "本例以整數新臺幣元表示；非跨幣別通用規格",
+  "eligibility": [
+    {
+      "id": "first_partial",
+      "paid": 1000,
+      "refunded": 0,
+      "reserved": 0,
+      "request": 300,
+      "eligible": true
+    },
+    {
+      "id": "has_unknown",
+      "paid": 1000,
+      "refunded": 300,
+      "reserved": 200,
+      "request": 400,
+      "eligible": true
+    },
+    {
+      "id": "over_available",
+      "paid": 1000,
+      "refunded": 300,
+      "reserved": 200,
+      "request": 600,
+      "eligible": false
+    },
+    {
+      "id": "zero",
+      "paid": 1000,
+      "refunded": 0,
+      "reserved": 0,
+      "request": 0,
+      "eligible": false
+    },
+    {
+      "id": "negative",
+      "paid": 1000,
+      "refunded": 0,
+      "reserved": 0,
+      "request": -1,
+      "eligible": false
+    },
+    {
+      "id": "fully_reserved",
+      "paid": 1000,
+      "refunded": 300,
+      "reserved": 700,
+      "request": 1,
+      "eligible": false
+    }
+  ],
+  "outcomes": [
+    {
+      "event": "success",
+      "amount": 300,
+      "before": {
+        "paid": 1000,
+        "refunded": 0,
+        "reserved": 300
+      },
+      "after": {
+        "paid": 1000,
+        "refunded": 300,
+        "reserved": 0
+      }
+    },
+    {
+      "event": "failure",
+      "amount": 300,
+      "before": {
+        "paid": 1000,
+        "refunded": 0,
+        "reserved": 300
+      },
+      "after": {
+        "paid": 1000,
+        "refunded": 0,
+        "reserved": 0
+      }
+    },
+    {
+      "event": "unknown",
+      "amount": 300,
+      "before": {
+        "paid": 1000,
+        "refunded": 0,
+        "reserved": 300
+      },
+      "after": {
+        "paid": 1000,
+        "refunded": 0,
+        "reserved": 300
+      }
+    },
+    {
+      "event": "duplicate_success",
+      "amount": 300,
+      "before": {
+        "paid": 1000,
+        "refunded": 300,
+        "reserved": 0
+      },
+      "after": {
+        "paid": 1000,
+        "refunded": 300,
+        "reserved": 0
+      }
+    }
+  ]
+}

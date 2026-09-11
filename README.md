@@ -14,6 +14,7 @@
 - [第 10 章：AI 繪圖除錯室](docs/chapters/10-debugging.md)／[反例與修正版](examples/debugging/README.md)
 - [第 11 章：跨工具協作](docs/chapters/11-cross-tool.md)／[對照與契約](examples/cross-tool/README.md)
 - [第 12 章：版本、自動化與安全](docs/chapters/12-automation-security.md)／[檢查命令與 CI](examples/automation/README.md)
+- [第 13 章：部分退款綜合專案](docs/chapters/13-refund-project.md)／[需求、圖檔與驗證](examples/refund-change/README.md)
 - [勘誤紀錄](docs/errata.md)
 - [問答與交流](https://github.com/t945935/-ai-diagramming-book/discussions)
 - [回報勘誤或範例問題](https://github.com/t945935/-ai-diagramming-book/issues/new/choose)

@@ -6,7 +6,9 @@
 
 另有 [跨工具對照與契約](cross-tool/README.md)：區分模組／服務概念，檢查 D2 與 draw.io 的四條呼叫端點。
 
-[第 12 章檢查入口](automation/README.md) 提供 make check-core／check-full／audit-npm；GitHub Actions 目前只執行四個核心測試，不代表各範例全部 CI 化。
+[第 12 章檢查入口](automation/README.md) 提供 make check-core／check-full／audit-npm；GitHub Actions 目前執行六個核心測試（含第 13 章退款規格快照），不代表各範例全部 CI 化。
+
+另有 [部分退款綜合案例](refund-change/README.md)：兩張獨立圖、額度與結果快照、跨工具影響清單；不是實際退款系統。
 
 每個範例需要：
 

@@ -1,0 +1,12 @@
+{
+  "scope": "Specification fixtures only; no real payment execution",
+  "fault_injection": {
+    "change": "unknown outcome wrongly releases reservation",
+    "exit_code": 1,
+    "output": "test_eligibility_includes_outstanding_reservations (test_refund_change.RefundSpecificationTests.test_eligibility_includes_outstanding_reservations) ... ok\ntest_settlement_unknown_and_duplicate_preserve_ledger_rules (test_refund_change.RefundSpecificationTests.test_settlement_unknown_and_duplicate_preserve_ledger_rules) ... \n  test_settlement_unknown_and_duplicate_preserve_ledger_rules (test_refund_change.RefundSpecificationTests.test_settlement_unknown_and_duplicate_preserve_ledger_rules) (event='unknown') ... FAIL\n\n======================================================================\nFAIL: test_settlement_unknown_and_duplicate_preserve_ledger_rules (test_refund_change.RefundSpecificationTests.test_settlement_unknown_and_duplicate_preserve_ledger_rules) (event='unknown')\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/j5/projects/-ai-diagramming-book/tests/test_refund_change.py\", line 43, in test_settlement_unknown_and_duplicate_preserve_ledger_rules\n    self.assertEqual(after, before, 'unknown or duplicate must not change ledger')\nAssertionError: {'paid': 1000, 'refunded': 0, 'reserved': 0} != {'paid': 1000, 'refunded': 0, 'reserved': 300}\n- {'paid': 1000, 'refunded': 0, 'reserved': 0}\n+ {'paid': 1000, 'refunded': 0, 'reserved': 300}\n?                                           ++\n : unknown or duplicate must not change ledger\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (failures=1)\n"
+  },
+  "baseline": {
+    "exit_code": 0,
+    "output": "test_eligibility_includes_outstanding_reservations (test_refund_change.RefundSpecificationTests.test_eligibility_includes_outstanding_reservations) ... ok\ntest_settlement_unknown_and_duplicate_preserve_ledger_rules (test_refund_change.RefundSpecificationTests.test_settlement_unknown_and_duplicate_preserve_ledger_rules) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nOK\n"
+  }
+}
