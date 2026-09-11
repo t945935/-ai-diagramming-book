@@ -1,0 +1,26 @@
+請接續《讓 AI 畫對圖：六大繪圖工具的實作與協作》專案，以繁體中文工作。
+
+Repo：https://github.com/t945935/-ai-diagramming-book
+工作包基準 commit：5e1eb1addb738b70d2bc4093ae46de509ae9f5aa
+實際本機路徑：請由我提供，或先確認目前目錄；不要假設舊電腦路徑仍存在。
+
+先讀 START-HERE.md、TASKS.md、ENVIRONMENT.md，以及專案 docs/chapters.md、README.md、examples/README.md、CHANGELOG.md。若有 Git checkout，先確認分支與未提交修改；若只有 project/ 快照，不要假裝可以 git push。
+
+已完成：第 4 至 13 章樣章／短篇；Mermaid、D2、PlantUML、Graphviz、draw.io、Excalidraw 第一輪案例；第 10 章故障範例；第 11 章概念／端點契約；第 12 章 Makefile 與核心 CI；第 13 章部分退款圖與規格快照。第 8 章仍需由短篇擴寫。
+
+未開始：第 1 至 3 章，沒有半成品。下一個工作里程碑請補齊：
+1. 從一句需求到一張有用的圖：讀者、用途、範圍、已知／未知、需求單與完成範例。
+2. 六套工具怎麼選：依交付情境選工具，說明可編輯性、版本追蹤與轉換限制，附選型練習。
+3. 讓 AI 按規格畫圖：角色、節點、關係、例外、提示詞模板、語法／語意／視覺／交付驗收表。
+
+採既有虛構「線上訂單與客服平台」案例，連結後面工具章。不要為新基礎章改動已驗證圖；有矛盾先指出。新章維持公開樣章範圍，完整出版書稿另行規劃。
+
+六工具分工：文件流程→Mermaid；服務架構→D2；詳細 UML／時序→PlantUML；模組依賴→Graphviz；人工微調→draw.io；需求白板→Excalidraw。Graphviz payment 是付款模組，不等於外部支付服務。未知付款／退款結果不能直接改成失敗。三次查詢是第 6 章教學假設，不是真實已批准政策。
+
+品質要求：虛構資料與假設要明示，AI 不補未提供的人名、期限或關係；測試資料不等於已實作 API。保留原生可編輯檔，真實執行後才記錄成功。畫面可見不等於可編輯，CI 綠燈也不等於全圖完整驗證。
+
+基準狀態：make check-core 為六個 Python 測試方法；make check-full 為十個，後者需要 Mermaid／Chromium／Graphviz。CI 只跑核心。最新基準 CI：https://github.com/t945935/-ai-diagramming-book/actions/runs/34586415952 。新提交需查自己的 head SHA 與 run，不沿用舊結果。
+
+不要建立正式 tag／Release、Pages、授權檔或改分支保護，除非另有批准。授權尚未選定；不自行加 MIT 或 CC。不要搬移或要求聊天貼出憑證。
+
+本輪完成條件：三章與配套模板可閱讀、連結有效、測試真跑、章節索引更新；具發布權限時提交並逐檔讀回，沒有權限就保留本機成果且清楚回報。先完成這個里程碑，不直接跳去整本排版。
