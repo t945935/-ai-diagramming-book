@@ -2,7 +2,7 @@
 
 《讓 AI 畫對圖：六大繪圖工具的實作與協作》（暫定書名）的隨書資源庫。
 
-**目前階段：樣章試讀。Mermaid、D2、PlantUML、Graphviz、Excalidraw 樣章與 draw.io 短篇試作已完成各自記錄的驗證；尚未正式出版或發布隨書版本。**
+**目前階段：樣章試讀。Mermaid、D2、PlantUML、Graphviz、Excalidraw 樣章與 draw.io 擴寫樣章已有各自範圍的驗證紀錄；尚未正式出版或發布隨書版本。**
 
 從頭閱讀：[第 1 章 需求](docs/chapters/01-requirements.md) · [第 2 章 選型](docs/chapters/02-tool-selection.md) · [第 3 章 AI 驗收](docs/chapters/03-ai-contract.md)
 
@@ -30,7 +30,7 @@
 | D2 | 平台與服務架構 | [樣章可試讀](docs/chapters/05-d2.md) |
 | PlantUML | 付款時序、訂單狀態與類別關係 | [樣章可試讀](docs/chapters/06-plantuml.md) |
 | Graphviz | 模組依賴與變更影響 | [樣章可試讀](docs/chapters/07-graphviz.md) |
-| draw.io | 可人工編輯的架構交接圖 | [短篇可試讀](docs/chapters/08-drawio.md) |
+| draw.io | 可人工編輯的架構交接圖 | [擴寫樣章可試讀](docs/chapters/08-drawio.md) |
 | Excalidraw | 需求白板與決策討論 | [樣章可試讀](docs/chapters/09-excalidraw.md) |
 
 各工具另有適用場景；這是教學分工，不是功能限制。全書使用虛構的「線上訂單與客服平台」作為共同案例。

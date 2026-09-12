@@ -1,6 +1,6 @@
 # draw.io 平台架構：可編輯性試作
 
-[第 8 章短篇](../../../docs/chapters/08-drawio.md) · [提示詞](../../../prompts/drawio-order-platform.md) · [驗證紀錄](verification.md)
+[第 8 章擴寫樣章](../../../docs/chapters/08-drawio.md) · [提示詞](../../../prompts/drawio-order-platform.md) · [驗證紀錄](verification.md)
 
 ![預覽](order-platform.svg)
 
