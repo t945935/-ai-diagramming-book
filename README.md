@@ -10,6 +10,8 @@
 
 13 章已完成第一遍一致性通稿，仍是樣章；[通稿紀錄](docs/editorial/first-pass.md) 列出修正與未完成項。
 
+[下載 69 頁 A4 試讀 PDF](downloads/ai-diagramming-reading-proof-dd25dda.pdf) · [校樣檢查與待辦](docs/editorial/reading-proof.md)（非正式出版版）
+
 ## 從這裡開始
 
 - [初次使用與下載](docs/getting-started.md)

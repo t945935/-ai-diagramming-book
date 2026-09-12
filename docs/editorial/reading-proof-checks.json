@@ -1,0 +1,246 @@
+{
+  "base_commit": "dd25dda2effea23a3c0d1fa214597f1568c89600",
+  "pdf": "downloads/ai-diagramming-reading-proof-dd25dda.pdf",
+  "sha256": "988cbd3183d8a938f438ae72a2c7536f91c1866fa00874cc320f7cbb91146371",
+  "bytes": 3631303,
+  "pages": 69,
+  "chapter_count": 13,
+  "chapters": [
+    {
+      "chapter": 1,
+      "page": 3,
+      "title": "第 1 章：從一句需求到一張有用的圖"
+    },
+    {
+      "chapter": 2,
+      "page": 5,
+      "title": "第 2 章：六套工具怎麼選"
+    },
+    {
+      "chapter": 3,
+      "page": 7,
+      "title": "第 3 章：讓 AI 按規格畫圖"
+    },
+    {
+      "chapter": 4,
+      "page": 10,
+      "title": "第 4 章：Mermaid，把流程直接寫進文件"
+    },
+    {
+      "chapter": 5,
+      "page": 15,
+      "title": "第 5 章：D2，用文字維護系統架構"
+    },
+    {
+      "chapter": 6,
+      "page": 20,
+      "title": "第 6 章：PlantUML，把付款互動與狀態講清楚"
+    },
+    {
+      "chapter": 7,
+      "page": 28,
+      "title": "第 7 章：Graphviz，從依賴資料產圖與篩選影響"
+    },
+    {
+      "chapter": 8,
+      "page": 35,
+      "title": "第 8 章：draw.io，讓 AI 草稿能由人接手"
+    },
+    {
+      "chapter": 9,
+      "page": 42,
+      "title": "第 9 章：Excalidraw，先把未定的事留在白板上"
+    },
+    {
+      "chapter": 10,
+      "page": 46,
+      "title": "第 10 章：AI 繪圖除錯室"
+    },
+    {
+      "chapter": 11,
+      "page": 54,
+      "title": "第 11 章：跨工具協作與轉換限制"
+    },
+    {
+      "chapter": 12,
+      "page": 58,
+      "title": "第 12 章：版本管理、自動化與安全"
+    },
+    {
+      "chapter": 13,
+      "page": 62,
+      "title": "第 13 章：部分退款綜合專案"
+    }
+  ],
+  "figure_count": 13,
+  "figures": [
+    {
+      "id": "圖 4-1",
+      "chapter": 4,
+      "source": "examples/mermaid/order-flow/order-flow.svg",
+      "sha256": "bda4e002c31a5a20f02f44602584710567eb955cce61c912dad30aff7994ad7f",
+      "width": 1035.0390625,
+      "height": 1334.0625,
+      "landscape": false
+    },
+    {
+      "id": "圖 5-1",
+      "chapter": 5,
+      "source": "examples/d2/order-platform/order-platform.svg",
+      "sha256": "914884eeda9846938a14d9ba1c027d3e2dc4dc52df20b48555dd3000f557082b",
+      "width": 1470.0,
+      "height": 634.0,
+      "landscape": true
+    },
+    {
+      "id": "圖 6-1",
+      "chapter": 6,
+      "source": "examples/plantuml/payment/payment-sequence.svg",
+      "sha256": "6b26a7ee3aa2e268f06193a987df418a20d67a9b312700cdf478fdce09b64c1c",
+      "width": 652.0,
+      "height": 917.0,
+      "landscape": false
+    },
+    {
+      "id": "圖 6-2",
+      "chapter": 6,
+      "source": "examples/plantuml/payment/order-state.svg",
+      "sha256": "9c90635784c087c21484c7289925a0f57aada831c731ef1e2932002ca4441ee4",
+      "width": 871.0,
+      "height": 601.0,
+      "landscape": false
+    },
+    {
+      "id": "圖 6-3",
+      "chapter": 6,
+      "source": "examples/plantuml/payment/payment-model.svg",
+      "sha256": "d4017959173b9ac86f347492b8fb58490c6cacabbeafbdafa9f6b4771306da6f",
+      "width": 618.0,
+      "height": 552.0,
+      "landscape": false
+    },
+    {
+      "id": "圖 7-1",
+      "chapter": 7,
+      "source": "examples/graphviz/dependencies/generated/overview.svg",
+      "sha256": "9df755cbb13cfcb213f839bb85c1fd60728c090b76c711437bb9e2e1e11e5b2d",
+      "width": 678.2,
+      "height": 441.2,
+      "landscape": false
+    },
+    {
+      "id": "圖 7-2",
+      "chapter": 7,
+      "source": "examples/graphviz/dependencies/generated/impact.svg",
+      "sha256": "7c812788137efcc9abcfade4468ad46b449bb6550345d86f508977b4dae59393",
+      "width": 631.2,
+      "height": 297.2,
+      "landscape": true
+    },
+    {
+      "id": "圖 8-1",
+      "chapter": 8,
+      "source": "examples/drawio/order-platform/order-platform.svg",
+      "sha256": "125e72a1188201dd7dcfa7237dc3bf8e1de16011b2a3c1d22a237d93c6ee4644",
+      "width": 1042.0,
+      "height": 630.0,
+      "landscape": true
+    },
+    {
+      "id": "圖 9-1",
+      "chapter": 9,
+      "source": "examples/excalidraw/requirements-board/requirements-board.png",
+      "sha256": "a03423acb5cb43ec8d7802a34a3e3102f4f3020f84ec1c6930dd35d76bac70cc",
+      "width": 1100,
+      "height": 595,
+      "landscape": true
+    },
+    {
+      "id": "圖 10-1",
+      "chapter": 10,
+      "source": "examples/debugging/generated/mermaid-fixed.png",
+      "sha256": "26cd53c4239c5b8911c8e426adc0554690459bb37c452ea6340b24e9aaec00ca",
+      "width": 330,
+      "height": 70,
+      "landscape": true
+    },
+    {
+      "id": "圖 10-2",
+      "chapter": 10,
+      "source": "examples/debugging/generated/dot-fixed.png",
+      "sha256": "d3222525ce2b4318fa03221f8540f36a32dfaa112fb218ab4a5bc2c47400251a",
+      "width": 148,
+      "height": 155,
+      "landscape": false
+    },
+    {
+      "id": "圖 13-1",
+      "chapter": 13,
+      "source": "examples/refund-change/refund-flow.png",
+      "sha256": "fec44d338379a330acf7818ea9a04c110d20f7c02daa53aebc204fe6ac45fef9",
+      "width": 784,
+      "height": 921,
+      "landscape": false
+    },
+    {
+      "id": "圖 13-2",
+      "chapter": 13,
+      "source": "examples/refund-change/refund-state.png",
+      "sha256": "624df769cbf17da1e847eced36f2a961e8006f4d8c183f21c498ab0275045155",
+      "width": 581,
+      "height": 537,
+      "landscape": false
+    }
+  ],
+  "heading_count_checked": 147,
+  "headings_missing": [],
+  "bookmarks": 13,
+  "font_types": {
+    "Type3": 388,
+    "Type0": 3
+  },
+  "font_check": "Type3 CharProcs present; non-Type3 font programs extractable. Not cross-viewer certification.",
+  "source_chapters_unchanged": true,
+  "source_figures_unchanged": true,
+  "replacement_characters": 0,
+  "visual_review": {
+    "contact_sheet_figure_pages": [
+      12,
+      17,
+      21,
+      23,
+      25,
+      30,
+      32,
+      36,
+      43,
+      48,
+      50,
+      64,
+      66
+    ],
+    "enlarged_figure_pages": [
+      12,
+      21,
+      23,
+      30,
+      64,
+      66
+    ],
+    "body_pages": [
+      5,
+      18
+    ],
+    "not_done": [
+      "all-page visual review",
+      "physical printing",
+      "cross-platform PDF viewer testing"
+    ]
+  },
+  "limits": [
+    "PNG diagram labels have no OCR layer",
+    "long code lines visually wrap; use source commands",
+    "small diagram labels and sparse pages remain"
+  ],
+  "toc_destinations_verified": true
+}

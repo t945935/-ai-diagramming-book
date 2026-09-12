@@ -29,6 +29,8 @@
 
 - [第 13 章：部分退款綜合專案](chapters/13-refund-project.md)
 
+[下載 A4 試讀 PDF](../downloads/ai-diagramming-reading-proof-dd25dda.pdf) · [版面待辦](editorial/reading-proof.md)
+
 ## 案例與出版狀態
 
 全書使用虛構的線上訂單與客服平台；模組、服務、流程及工作坊各有範圍，不是已上線系統的實際架構。
