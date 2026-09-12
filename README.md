@@ -4,7 +4,9 @@
 
 **目前階段：樣章試讀。Mermaid、D2、PlantUML、Graphviz、Excalidraw 樣章與 draw.io 短篇試作已完成各自記錄的驗證；尚未正式出版或發布隨書版本。**
 
-開始試讀：[第 4 章 Mermaid](docs/chapters/04-mermaid.md) · [執行範例](examples/mermaid/order-flow/README.md) · [驗證與已知限制](examples/mermaid/order-flow/verification.md)
+從頭閱讀：[第 1 章 需求](docs/chapters/01-requirements.md) · [第 2 章 選型](docs/chapters/02-tool-selection.md) · [第 3 章 AI 驗收](docs/chapters/03-ai-contract.md)
+
+直接實作：[第 4 章 Mermaid](docs/chapters/04-mermaid.md) · [執行範例](examples/mermaid/order-flow/README.md) · [驗證與已知限制](examples/mermaid/order-flow/verification.md)
 
 ## 從這裡開始
 

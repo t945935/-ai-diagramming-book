@@ -1,6 +1,6 @@
 # 全書規劃與章節導覽
 
-暫定書名：《讓 AI 畫對圖：六大繪圖工具的實作與協作》。本頁是大綱與進度索引。第 4 章已有[樣章草稿](chapters/04-mermaid.md)，第 8 章另有 [draw.io 短篇試作](chapters/08-drawio.md)，第 5 章已有 [D2 樣章](chapters/05-d2.md)；第 6 章已有 [PlantUML 樣章](chapters/06-plantuml.md)；第 7 章已有 [Graphviz 樣章](chapters/07-graphviz.md)；第 9 章已有 [Excalidraw 樣章](chapters/09-excalidraw.md)。六套工具第一輪範例齊備；第 10 章已有 [AI 繪圖除錯室](chapters/10-debugging.md)，第 11 章已有 [跨工具協作與轉換限制](chapters/11-cross-tool.md)，第 12 章已有 [版本管理、自動化與安全](chapters/12-automation-security.md)，第 13 章已有 [部分退款綜合專案](chapters/13-refund-project.md)。第 1 至 3 章仍為規劃中，整書尚未完成。
+暫定書名：《讓 AI 畫對圖：六大繪圖工具的實作與協作》。本頁是大綱與進度索引。第 4 章已有[樣章草稿](chapters/04-mermaid.md)，第 8 章另有 [draw.io 短篇試作](chapters/08-drawio.md)，第 5 章已有 [D2 樣章](chapters/05-d2.md)；第 6 章已有 [PlantUML 樣章](chapters/06-plantuml.md)；第 7 章已有 [Graphviz 樣章](chapters/07-graphviz.md)；第 9 章已有 [Excalidraw 樣章](chapters/09-excalidraw.md)。六套工具第一輪範例齊備；第 10 章已有 [AI 繪圖除錯室](chapters/10-debugging.md)，第 11 章已有 [跨工具協作與轉換限制](chapters/11-cross-tool.md)，第 12 章已有 [版本管理、自動化與安全](chapters/12-automation-security.md)，第 13 章已有 [部分退款綜合專案](chapters/13-refund-project.md)。第 1 章 [繪圖需求](chapters/01-requirements.md)、第 2 章 [工具選型](chapters/02-tool-selection.md)、第 3 章 [AI 規格與驗收](chapters/03-ai-contract.md) 也已補上。13 章均有樣章／短篇，仍待通稿、擴寫與排版，整書尚未完成。
 
 ## 第一篇：先把問題說清楚
 

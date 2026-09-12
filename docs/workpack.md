@@ -1,5 +1,7 @@
 # 作者接續工作包
 
+更新：main 已補上第 1 至 3 章，下一步為通稿及第 8 章擴寫。下方 ZIP 與其接續提示保留原快照，仍寫第一篇待辦；請以最新章節索引為準，避免重做。
+
 這是開發交接快照，不是正式隨書版本。專案內容固定於 `5e1eb1addb738b70d2bc4093ae46de509ae9f5aa`。
 
 [下載 ZIP](../downloads/ai-diagramming-workpack-20260911.zip) · [SHA-256](../downloads/ai-diagramming-workpack-20260911.sha256) · [給 AI 的接續提示](resume-prompt.txt)
