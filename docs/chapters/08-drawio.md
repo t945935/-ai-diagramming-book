@@ -152,3 +152,7 @@ D2 第一條呼叫寫「開啟頁面」，draw.io 寫「HTTPS」。參考：兩�
 - [SVG 匯出與字型相容性](https://www.drawio.com/doc/faq/export-to-svg)
 
 本例未嵌入外部服務商圖示，也未將第三方編輯器程式碼打包進 Repo。
+
+## 章節導覽
+
+[全書目錄](../chapters.md) · [共用術語](../glossary.md) · [驗證狀態](../validation-status.md) · [上一章](07-graphviz.md) · [下一章](09-excalidraw.md)

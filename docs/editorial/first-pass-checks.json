@@ -1,0 +1,1971 @@
+{
+  "scope": "first editorial consistency pass, not publication approval",
+  "chapters": [
+    {
+      "path": "docs/chapters/01-requirements.md",
+      "title": "# 第 1 章：從一句需求到一張有用的圖",
+      "sha256_before": "cde64384d7c7849c5429b0e3391280f05ae2b58d6c75f041ee95dfb053c6ac89",
+      "has_exercise": true,
+      "has_scope_note": true,
+      "sha256_after": "e5ed80767458d73d8909fc1bbec384905c80b06e78ca1eb2c4727565791e709d",
+      "review": "修正一般 PNG 與嵌入原生場景的界線"
+    },
+    {
+      "path": "docs/chapters/02-tool-selection.md",
+      "title": "# 第 2 章：六套工具怎麼選",
+      "sha256_before": "2e115f10cf530d90c465d09a222bc5a77a86663c524a13bfb586ea93392b010b",
+      "has_exercise": true,
+      "has_scope_note": true,
+      "sha256_after": "89af5024697825086f3a4e8038fa5d388223c509d0fe2cafb4b421f5a40eb6db",
+      "review": "確認六工具是本書分工，不是排他功能限制"
+    },
+    {
+      "path": "docs/chapters/03-ai-contract.md",
+      "title": "# 第 3 章：讓 AI 按規格畫圖",
+      "sha256_before": "ded724d3c44638d51159160ef97a5f8394aa1dee6af5a41fe436fac5dcaef14b",
+      "has_exercise": true,
+      "has_scope_note": true,
+      "sha256_after": "3cbd82bd194702d369a5c1660a4aa1f301e67359b8ed15e380852bd508f89253",
+      "review": "核對四層證據與原生保存的差異"
+    },
+    {
+      "path": "docs/chapters/04-mermaid.md",
+      "title": "# 第 4 章　Mermaid：把流程直接寫進文件",
+      "sha256_before": "357a66c8a1fadbd4dd14a8bd8b36eed38ce4aa8dfcbc20a632bde3a2ebfb13b6",
+      "has_exercise": true,
+      "has_scope_note": true,
+      "sha256_after": "1c5e55da7ff6ff7462f6dd20539428923402e0781f33ffdc357d596f2bbf0951",
+      "review": "把產品經理對話明示為虛構情境，統一章名"
+    },
+    {
+      "path": "docs/chapters/05-d2.md",
+      "title": "# 第 5 章　D2：用文字維護系統架構",
+      "sha256_before": "42a204966b5d3fabc6035849dc7fdc47249f5c8ab2139777071636f3ee6a23ab",
+      "has_exercise": true,
+      "has_scope_note": true,
+      "sha256_after": "80e4978ae5336827a20ffc9f4fa41aa1be622d3cc977c71780b131113a851c12",
+      "review": "移除過時短篇稱呼；區分端點 CI 與渲染 CI"
+    },
+    {
+      "path": "docs/chapters/06-plantuml.md",
+      "title": "# 第 6 章　PlantUML：把付款互動與狀態講清楚",
+      "sha256_before": "d375611e1ad48063e41aebf09cfa78b1805399bb37310b942b60348e40f902d5",
+      "has_exercise": true,
+      "has_scope_note": true,
+      "sha256_after": "26e09e49a413d83e78b7b04ab86835b2358c6211b718a2bb66848ed43905353c",
+      "review": "Graphviz 未安裝限定為首次渲染時點"
+    },
+    {
+      "path": "docs/chapters/07-graphviz.md",
+      "title": "# 第 7 章　Graphviz：從依賴資料產圖與篩選影響",
+      "sha256_before": "16b15862e64cff7f64a92982731f379f0eec44dc76c87594446c27c33df1bacb",
+      "has_exercise": true,
+      "has_scope_note": true,
+      "sha256_after": "e21651a6d267697c9b062a0ba18e84f1eaa91ae119d2e11b48e364ca6716c13d",
+      "review": "修正最小片段字型說明；標示生成器已有核心 CI"
+    },
+    {
+      "path": "docs/chapters/08-drawio.md",
+      "title": "# 第 8 章：draw.io，讓 AI 草稿能由人接手",
+      "sha256_before": "468056ed5cf87e3caf2c6477c19ae8d598c3089dd8d8678017153c8a4a4c6ac5",
+      "has_exercise": true,
+      "has_scope_note": true,
+      "sha256_after": "f32e4c32c3bced6b491ba0bcaa074f1ad708873b591771571d09c957317dd8e4",
+      "review": "核對擴稿的模型／GUI 驗證界線，保留首次紀錄"
+    },
+    {
+      "path": "docs/chapters/09-excalidraw.md",
+      "title": "# 第 9 章：Excalidraw——先把未定的事留在白板上",
+      "sha256_before": "6752893cca356bd71ebbb5b80ceca1606a8f47434bb85a66ab85f499fa1a264c",
+      "has_exercise": true,
+      "has_scope_note": true,
+      "sha256_after": "518883db99f7e963103debd2f7cf57135d882e16d545332980852622efa3fc60",
+      "review": "核對工作坊前提、未決事項與匯出接收器限制"
+    },
+    {
+      "path": "docs/chapters/10-debugging.md",
+      "title": "# 第 10 章：AI 繪圖除錯室",
+      "sha256_before": "c95ced7cadb2cdcf506db65f7f48fab62aa18454c5f9b19274abaf9431cedad6",
+      "has_exercise": true,
+      "has_scope_note": true,
+      "sha256_after": "7cbbb0617170ab3dab58b344037463c9e1a6367b0f1dc990ca3b3ff4c4653951",
+      "review": "將未做 CI 限定到本章四個除錯測試"
+    },
+    {
+      "path": "docs/chapters/11-cross-tool.md",
+      "title": "# 第 11 章：跨工具協作與轉換限制",
+      "sha256_before": "d5980770d3adf600d468a46426d313a3dc3d58a968396046acfb5b6ebef70af1",
+      "has_exercise": true,
+      "has_scope_note": true,
+      "sha256_after": "90bc402c480cabe4015220444f4570f6708df8acfebd888aa912b92ff3d648e3",
+      "review": "補明端點契約已在現行核心 CI 執行"
+    },
+    {
+      "path": "docs/chapters/12-automation-security.md",
+      "title": "# 第 12 章：版本管理、自動化與安全",
+      "sha256_before": "1919969d9153f005293dffbbe5dcaaec3b4d19dc535998cb7275c815a7b8e8b8",
+      "has_exercise": true,
+      "has_scope_note": true,
+      "sha256_after": "9983444443dc1040840958374bb18047495a4ba38eb9c73c60eeea3df3b818b1",
+      "review": "表格明示引入時快照；補退款測試覆寫變數"
+    },
+    {
+      "path": "docs/chapters/13-refund-project.md",
+      "title": "# 第 13 章：部分退款綜合專案",
+      "sha256_before": "d374f8deb4e2ded963bccf1bfbc8c0aa469ca49d3041b03e7f2c43ba9a1a6963",
+      "has_exercise": true,
+      "has_scope_note": true,
+      "sha256_after": "fb74c546898099bb02800b4f9390c27a651492dbd0bc318a87cd7892a43ca69c",
+      "review": "核對算術快照與真實交易／供應商整合的區別"
+    }
+  ],
+  "chapter_count": 13,
+  "markdown_files": [
+    ".github/pull_request_template.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "README.md",
+    "SUPPORT.md",
+    "docs/chapters/01-requirements.md",
+    "docs/chapters/02-tool-selection.md",
+    "docs/chapters/03-ai-contract.md",
+    "docs/chapters/04-mermaid.md",
+    "docs/chapters/05-d2.md",
+    "docs/chapters/06-plantuml.md",
+    "docs/chapters/07-graphviz.md",
+    "docs/chapters/08-drawio.md",
+    "docs/chapters/09-excalidraw.md",
+    "docs/chapters/10-debugging.md",
+    "docs/chapters/11-cross-tool.md",
+    "docs/chapters/12-automation-security.md",
+    "docs/chapters/13-refund-project.md",
+    "docs/chapters.md",
+    "docs/editorial/drawio-expansion.md",
+    "docs/editorial/first-pass.md",
+    "docs/editorial/style-guide.md",
+    "docs/errata.md",
+    "docs/getting-started.md",
+    "docs/glossary.md",
+    "docs/validation-status.md",
+    "docs/workpack.md",
+    "examples/README.md",
+    "examples/automation/README.md",
+    "examples/automation/release-checklist.md",
+    "examples/automation/verification.md",
+    "examples/cross-tool/README.md",
+    "examples/cross-tool/authority.md",
+    "examples/cross-tool/change-drill.md",
+    "examples/cross-tool/verification.md",
+    "examples/d2/order-platform/README.md",
+    "examples/d2/order-platform/requirements.md",
+    "examples/d2/order-platform/verification.md",
+    "examples/debugging/README.md",
+    "examples/debugging/debug-report-template.md",
+    "examples/debugging/verification.md",
+    "examples/drawio/order-platform/README.md",
+    "examples/drawio/order-platform/verification.md",
+    "examples/excalidraw/requirements-board/README.md",
+    "examples/excalidraw/requirements-board/decisions.md",
+    "examples/excalidraw/requirements-board/requirements.md",
+    "examples/excalidraw/requirements-board/verification.md",
+    "examples/foundations/order-brief.md",
+    "examples/foundations/verification.md",
+    "examples/graphviz/dependencies/README.md",
+    "examples/graphviz/dependencies/verification.md",
+    "examples/mermaid/order-flow/README.md",
+    "examples/mermaid/order-flow/requirements.md",
+    "examples/mermaid/order-flow/verification.md",
+    "examples/plantuml/payment/README.md",
+    "examples/plantuml/payment/requirements.md",
+    "examples/plantuml/payment/verification.md",
+    "examples/refund-change/README.md",
+    "examples/refund-change/change-impact.md",
+    "examples/refund-change/requirements.md",
+    "examples/refund-change/verification.md",
+    "prompts/cross-tool-handoff.md",
+    "prompts/d2-order-platform.md",
+    "prompts/diagram-contract.md",
+    "prompts/diagram-debugging.md",
+    "prompts/drawio-order-platform.md",
+    "prompts/excalidraw-requirements.md",
+    "prompts/graphviz-dependencies.md",
+    "prompts/mermaid-order-flow.md",
+    "prompts/partial-refund.md",
+    "prompts/plantuml-payment.md",
+    "prompts/release-verification.md",
+    "templates/diagram-acceptance.md",
+    "templates/diagram-brief.md",
+    "templates/drawio-change-request.md",
+    "templates/tool-selection.md"
+  ],
+  "relative_link_occurrences": 352,
+  "links": [
+    {
+      "source": "README.md",
+      "target": "docs/chapters/01-requirements.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "docs/chapters/02-tool-selection.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "docs/chapters/03-ai-contract.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "docs/chapters/04-mermaid.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "examples/mermaid/order-flow/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "examples/mermaid/order-flow/verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "docs/editorial/first-pass.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "docs/getting-started.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "docs/chapters.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "examples/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "docs/chapters/10-debugging.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "examples/debugging/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "docs/chapters/11-cross-tool.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "examples/cross-tool/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "docs/chapters/12-automation-security.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "examples/automation/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "docs/chapters/13-refund-project.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "examples/refund-change/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "docs/errata.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "SUPPORT.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "CONTRIBUTING.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "docs/chapters/05-d2.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "docs/chapters/06-plantuml.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "docs/chapters/07-graphviz.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "docs/chapters/08-drawio.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "docs/chapters/09-excalidraw.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "README.md",
+      "target": "docs/workpack.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/01-requirements.md",
+      "target": "../../templates/diagram-brief.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/01-requirements.md",
+      "target": "06-plantuml.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/01-requirements.md",
+      "target": "05-d2.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/01-requirements.md",
+      "target": "../../examples/mermaid/order-flow/requirements.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/01-requirements.md",
+      "target": "../../examples/foundations/order-brief.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/01-requirements.md",
+      "target": "02-tool-selection.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/01-requirements.md",
+      "target": "../chapters.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/01-requirements.md",
+      "target": "../glossary.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/01-requirements.md",
+      "target": "../validation-status.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/01-requirements.md",
+      "target": "02-tool-selection.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/02-tool-selection.md",
+      "target": "13-refund-project.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/02-tool-selection.md",
+      "target": "../../templates/tool-selection.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/02-tool-selection.md",
+      "target": "../chapters.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/02-tool-selection.md",
+      "target": "../glossary.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/02-tool-selection.md",
+      "target": "../validation-status.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/02-tool-selection.md",
+      "target": "01-requirements.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/02-tool-selection.md",
+      "target": "03-ai-contract.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/03-ai-contract.md",
+      "target": "../../prompts/diagram-contract.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/03-ai-contract.md",
+      "target": "10-debugging.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/03-ai-contract.md",
+      "target": "../../templates/diagram-acceptance.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/03-ai-contract.md",
+      "target": "12-automation-security.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/03-ai-contract.md",
+      "target": "04-mermaid.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/03-ai-contract.md",
+      "target": "../chapters.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/03-ai-contract.md",
+      "target": "../glossary.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/03-ai-contract.md",
+      "target": "../validation-status.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/03-ai-contract.md",
+      "target": "02-tool-selection.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/03-ai-contract.md",
+      "target": "04-mermaid.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/04-mermaid.md",
+      "target": "../../examples/mermaid/order-flow/requirements.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/04-mermaid.md",
+      "target": "../../prompts/mermaid-order-flow.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/04-mermaid.md",
+      "target": "../../examples/mermaid/order-flow/order-flow.mmd",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/04-mermaid.md",
+      "target": "../../examples/mermaid/order-flow/order-flow.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/04-mermaid.md",
+      "target": "../../examples/mermaid/order-flow/order-flow.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/04-mermaid.md",
+      "target": "../../examples/mermaid/order-flow/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/04-mermaid.md",
+      "target": "../../examples/mermaid/order-flow/verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/04-mermaid.md",
+      "target": "../chapters.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/04-mermaid.md",
+      "target": "../glossary.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/04-mermaid.md",
+      "target": "../validation-status.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/04-mermaid.md",
+      "target": "03-ai-contract.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/04-mermaid.md",
+      "target": "05-d2.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/05-d2.md",
+      "target": "08-drawio.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/05-d2.md",
+      "target": "../../examples/d2/order-platform/requirements.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/05-d2.md",
+      "target": "../../examples/d2/order-platform/order-platform.d2",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/05-d2.md",
+      "target": "../../prompts/d2-order-platform.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/05-d2.md",
+      "target": "../../examples/d2/order-platform/order-platform.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/05-d2.md",
+      "target": "../../examples/d2/order-platform/order-platform.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/05-d2.md",
+      "target": "../../examples/d2/order-platform/verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/05-d2.md",
+      "target": "../validation-status.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/05-d2.md",
+      "target": "../chapters.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/05-d2.md",
+      "target": "../glossary.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/05-d2.md",
+      "target": "../validation-status.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/05-d2.md",
+      "target": "04-mermaid.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/05-d2.md",
+      "target": "06-plantuml.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/06-plantuml.md",
+      "target": "05-d2.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/06-plantuml.md",
+      "target": "../../examples/plantuml/payment/requirements.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/06-plantuml.md",
+      "target": "../../examples/plantuml/payment/payment-sequence.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/06-plantuml.md",
+      "target": "../../examples/plantuml/payment/payment-sequence.puml",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/06-plantuml.md",
+      "target": "../../examples/plantuml/payment/payment-sequence.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/06-plantuml.md",
+      "target": "../../examples/plantuml/payment/order-state.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/06-plantuml.md",
+      "target": "../../examples/plantuml/payment/order-state.puml",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/06-plantuml.md",
+      "target": "../../examples/plantuml/payment/order-state.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/06-plantuml.md",
+      "target": "../../examples/plantuml/payment/payment-model.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/06-plantuml.md",
+      "target": "../../examples/plantuml/payment/payment-model.puml",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/06-plantuml.md",
+      "target": "../../examples/plantuml/payment/payment-model.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/06-plantuml.md",
+      "target": "../../examples/plantuml/payment/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/06-plantuml.md",
+      "target": "../../examples/plantuml/payment/verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/06-plantuml.md",
+      "target": "../chapters.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/06-plantuml.md",
+      "target": "../glossary.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/06-plantuml.md",
+      "target": "../validation-status.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/06-plantuml.md",
+      "target": "05-d2.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/06-plantuml.md",
+      "target": "07-graphviz.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/07-graphviz.md",
+      "target": "../../examples/graphviz/dependencies/dependencies.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/07-graphviz.md",
+      "target": "../../scripts/graphviz_dependencies.py",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/07-graphviz.md",
+      "target": "../../examples/graphviz/dependencies/generated/overview.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/07-graphviz.md",
+      "target": "../../examples/graphviz/dependencies/generated/overview.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/07-graphviz.md",
+      "target": "../../examples/graphviz/dependencies/generated/impact.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/07-graphviz.md",
+      "target": "../../examples/graphviz/dependencies/generated/impact.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/07-graphviz.md",
+      "target": "../../examples/graphviz/dependencies/generated/impact.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/07-graphviz.md",
+      "target": "../../tests/test_graphviz_generator.py",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/07-graphviz.md",
+      "target": "../validation-status.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/07-graphviz.md",
+      "target": "../chapters.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/07-graphviz.md",
+      "target": "../glossary.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/07-graphviz.md",
+      "target": "../validation-status.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/07-graphviz.md",
+      "target": "06-plantuml.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/07-graphviz.md",
+      "target": "08-drawio.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/08-drawio.md",
+      "target": "../../examples/drawio/order-platform/order-platform.drawio",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/08-drawio.md",
+      "target": "../../examples/drawio/order-platform/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/08-drawio.md",
+      "target": "../../examples/drawio/order-platform/order-platform.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/08-drawio.md",
+      "target": "../../prompts/drawio-order-platform.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/08-drawio.md",
+      "target": "../../examples/drawio/order-platform/edit-verification.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/08-drawio.md",
+      "target": "../../examples/drawio/order-platform/verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/08-drawio.md",
+      "target": "../../examples/drawio/order-platform/order-platform.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/08-drawio.md",
+      "target": "../../templates/drawio-change-request.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/08-drawio.md",
+      "target": "../../docs/editorial/drawio-expansion.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/08-drawio.md",
+      "target": "../chapters.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/08-drawio.md",
+      "target": "../glossary.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/08-drawio.md",
+      "target": "../validation-status.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/08-drawio.md",
+      "target": "07-graphviz.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/08-drawio.md",
+      "target": "09-excalidraw.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/09-excalidraw.md",
+      "target": "../../examples/excalidraw/requirements-board/requirements-board.excalidraw",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/09-excalidraw.md",
+      "target": "../../examples/excalidraw/requirements-board/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/09-excalidraw.md",
+      "target": "../../examples/excalidraw/requirements-board/requirements-board.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/09-excalidraw.md",
+      "target": "../../examples/excalidraw/requirements-board/requirements.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/09-excalidraw.md",
+      "target": "../../prompts/excalidraw-requirements.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/09-excalidraw.md",
+      "target": "../../examples/excalidraw/requirements-board/verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/09-excalidraw.md",
+      "target": "../../examples/excalidraw/requirements-board/decisions.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/09-excalidraw.md",
+      "target": "../chapters.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/09-excalidraw.md",
+      "target": "../glossary.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/09-excalidraw.md",
+      "target": "../validation-status.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/09-excalidraw.md",
+      "target": "08-drawio.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/09-excalidraw.md",
+      "target": "10-debugging.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "../../examples/debugging/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "../../prompts/diagram-debugging.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "../../examples/debugging/mermaid/broken.mmd",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "../../examples/debugging/generated/mermaid-fixed.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "../../examples/debugging/dot/broken.dot",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "../../examples/debugging/generated/dot-fixed.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "../../examples/debugging/README.md#案例清單",
+      "fragment_checked": true
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "../../examples/debugging/results.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "../../examples/mermaid/order-flow/verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "../../examples/d2/order-platform/verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "../../examples/plantuml/payment/verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "../../examples/graphviz/dependencies/verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "../../examples/drawio/order-platform/verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "../../examples/excalidraw/requirements-board/verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "../../examples/debugging/debug-report-template.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "../../examples/debugging/results.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "../validation-status.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "../chapters.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "../glossary.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "../validation-status.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "09-excalidraw.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/10-debugging.md",
+      "target": "11-cross-tool.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/11-cross-tool.md",
+      "target": "../../examples/cross-tool/concept-map.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/11-cross-tool.md",
+      "target": "../../examples/cross-tool/authority.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/11-cross-tool.md",
+      "target": "../../examples/cross-tool/change-drill.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/11-cross-tool.md",
+      "target": "../../examples/cross-tool/concept-map.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/11-cross-tool.md",
+      "target": "../../examples/cross-tool/mapping-verification.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/11-cross-tool.md",
+      "target": "../../examples/cross-tool/change-drill.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/11-cross-tool.md",
+      "target": "../validation-status.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/11-cross-tool.md",
+      "target": "../chapters.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/11-cross-tool.md",
+      "target": "../glossary.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/11-cross-tool.md",
+      "target": "../validation-status.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/11-cross-tool.md",
+      "target": "10-debugging.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/11-cross-tool.md",
+      "target": "12-automation-security.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/12-automation-security.md",
+      "target": "../../examples/automation/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/12-automation-security.md",
+      "target": "../../.github/workflows/core-contracts.yml",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/12-automation-security.md",
+      "target": "../../examples/automation/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/12-automation-security.md",
+      "target": "../../.github/workflows/core-contracts.yml",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/12-automation-security.md",
+      "target": "../../examples/automation/ci-evidence.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/12-automation-security.md",
+      "target": "../../examples/automation/local-results.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/12-automation-security.md",
+      "target": "../../examples/automation/release-checklist.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/12-automation-security.md",
+      "target": "../chapters.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/12-automation-security.md",
+      "target": "../glossary.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/12-automation-security.md",
+      "target": "../validation-status.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/12-automation-security.md",
+      "target": "11-cross-tool.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/12-automation-security.md",
+      "target": "13-refund-project.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/13-refund-project.md",
+      "target": "../../examples/refund-change/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/13-refund-project.md",
+      "target": "../../examples/refund-change/requirements.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/13-refund-project.md",
+      "target": "../../examples/refund-change/change-impact.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/13-refund-project.md",
+      "target": "../../examples/refund-change/scenarios.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/13-refund-project.md",
+      "target": "../../examples/refund-change/refund-flow.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/13-refund-project.md",
+      "target": "../../examples/refund-change/refund-flow.mmd",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/13-refund-project.md",
+      "target": "../../examples/refund-change/refund-state.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/13-refund-project.md",
+      "target": "../../examples/refund-change/refund-state.puml",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/13-refund-project.md",
+      "target": "../../examples/refund-change/change-impact.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/13-refund-project.md",
+      "target": "../../examples/refund-change/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/13-refund-project.md",
+      "target": "../chapters.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/13-refund-project.md",
+      "target": "../chapters.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/13-refund-project.md",
+      "target": "../glossary.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/13-refund-project.md",
+      "target": "../validation-status.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters/13-refund-project.md",
+      "target": "12-automation-security.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters.md",
+      "target": "glossary.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters.md",
+      "target": "validation-status.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters.md",
+      "target": "editorial/first-pass.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters.md",
+      "target": "chapters/01-requirements.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters.md",
+      "target": "chapters/02-tool-selection.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters.md",
+      "target": "chapters/03-ai-contract.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters.md",
+      "target": "chapters/04-mermaid.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters.md",
+      "target": "chapters/05-d2.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters.md",
+      "target": "chapters/06-plantuml.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters.md",
+      "target": "chapters/07-graphviz.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters.md",
+      "target": "chapters/08-drawio.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters.md",
+      "target": "chapters/09-excalidraw.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters.md",
+      "target": "chapters/10-debugging.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters.md",
+      "target": "chapters/11-cross-tool.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters.md",
+      "target": "chapters/12-automation-security.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters.md",
+      "target": "chapters/13-refund-project.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/chapters.md",
+      "target": "workpack.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/editorial/first-pass.md",
+      "target": "first-pass-checks.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/editorial/first-pass.md",
+      "target": "first-pass-tests.txt",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/editorial/style-guide.md",
+      "target": "../glossary.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/editorial/style-guide.md",
+      "target": "../validation-status.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/getting-started.md",
+      "target": "../SUPPORT.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/glossary.md",
+      "target": "chapters/11-cross-tool.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/glossary.md",
+      "target": "validation-status.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/validation-status.md",
+      "target": "../.github/workflows/core-contracts.yml",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/validation-status.md",
+      "target": "../Makefile",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/validation-status.md",
+      "target": "../examples/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/workpack.md",
+      "target": "../downloads/ai-diagramming-workpack-20260911.zip",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/workpack.md",
+      "target": "../downloads/ai-diagramming-workpack-20260911.sha256",
+      "fragment_checked": false
+    },
+    {
+      "source": "docs/workpack.md",
+      "target": "resume-prompt.txt",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/README.md",
+      "target": "mermaid/order-flow/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/README.md",
+      "target": "drawio/order-platform/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/README.md",
+      "target": "d2/order-platform/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/README.md",
+      "target": "plantuml/payment/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/README.md",
+      "target": "graphviz/dependencies/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/README.md",
+      "target": "excalidraw/requirements-board/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/README.md",
+      "target": "debugging/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/README.md",
+      "target": "cross-tool/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/README.md",
+      "target": "automation/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/README.md",
+      "target": "refund-change/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/automation/README.md",
+      "target": "../../docs/chapters/12-automation-security.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/automation/README.md",
+      "target": "../../Makefile",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/automation/README.md",
+      "target": "../../.github/workflows/core-contracts.yml",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/automation/README.md",
+      "target": "local-results.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/automation/README.md",
+      "target": "ci-evidence.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/automation/README.md",
+      "target": "verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/automation/README.md",
+      "target": "release-checklist.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/automation/README.md",
+      "target": "../../prompts/release-verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/automation/README.md",
+      "target": "../debugging/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/cross-tool/README.md",
+      "target": "../../docs/chapters/11-cross-tool.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/cross-tool/README.md",
+      "target": "concept-map.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/cross-tool/README.md",
+      "target": "mapping-verification.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/cross-tool/README.md",
+      "target": "authority.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/cross-tool/README.md",
+      "target": "change-drill.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/cross-tool/README.md",
+      "target": "../../prompts/cross-tool-handoff.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/cross-tool/README.md",
+      "target": "contract-test-output.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/cross-tool/README.md",
+      "target": "verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/cross-tool/verification.md",
+      "target": "suite-output.txt",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/d2/order-platform/README.md",
+      "target": "../../../docs/chapters/05-d2.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/d2/order-platform/README.md",
+      "target": "requirements.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/d2/order-platform/README.md",
+      "target": "../../../prompts/d2-order-platform.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/d2/order-platform/README.md",
+      "target": "verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/d2/order-platform/README.md",
+      "target": "order-platform.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/d2/order-platform/README.md",
+      "target": "order-platform.d2",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/d2/order-platform/README.md",
+      "target": "order-platform.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/debugging/README.md",
+      "target": "mermaid/broken.mmd",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/debugging/README.md",
+      "target": "mermaid/fixed.mmd",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/debugging/README.md",
+      "target": "dot/broken.dot",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/debugging/README.md",
+      "target": "dot/fixed.dot",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/debugging/README.md",
+      "target": "direction/broken.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/debugging/README.md",
+      "target": "direction/fixed.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/debugging/README.md",
+      "target": "endpoint/broken.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/debugging/README.md",
+      "target": "endpoint/fixed.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/debugging/README.md",
+      "target": "../../docs/chapters/10-debugging.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/debugging/README.md",
+      "target": "../../prompts/diagram-debugging.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/debugging/README.md",
+      "target": "results.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/debugging/README.md",
+      "target": "test-output.txt",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/debugging/README.md",
+      "target": "verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/debugging/README.md",
+      "target": "debug-report-template.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/debugging/README.md",
+      "target": "generated/mermaid-fixed.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/debugging/README.md",
+      "target": "generated/mermaid-fixed.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/debugging/README.md",
+      "target": "generated/dot-fixed.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/debugging/README.md",
+      "target": "generated/dot-fixed.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/debugging/README.md",
+      "target": "../mermaid/order-flow/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/debugging/README.md",
+      "target": "../graphviz/dependencies/README.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/drawio/order-platform/README.md",
+      "target": "../../../docs/chapters/08-drawio.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/drawio/order-platform/README.md",
+      "target": "../../../prompts/drawio-order-platform.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/drawio/order-platform/README.md",
+      "target": "verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/drawio/order-platform/README.md",
+      "target": "order-platform.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/drawio/order-platform/README.md",
+      "target": "order-platform.drawio",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/drawio/order-platform/README.md",
+      "target": "order-platform.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/drawio/order-platform/README.md",
+      "target": "order-platform.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/drawio/order-platform/README.md",
+      "target": "edit-verification.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/excalidraw/requirements-board/README.md",
+      "target": "requirements-board.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/excalidraw/requirements-board/README.md",
+      "target": "requirements-board.excalidraw",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/excalidraw/requirements-board/README.md",
+      "target": "requirements-board.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/excalidraw/requirements-board/README.md",
+      "target": "requirements-board.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/excalidraw/requirements-board/README.md",
+      "target": "requirements.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/excalidraw/requirements-board/README.md",
+      "target": "decisions.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/excalidraw/requirements-board/README.md",
+      "target": "../../../docs/chapters/09-excalidraw.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/excalidraw/requirements-board/README.md",
+      "target": "../../../prompts/excalidraw-requirements.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/excalidraw/requirements-board/README.md",
+      "target": "verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/excalidraw/requirements-board/README.md",
+      "target": "edit-verification.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/excalidraw/requirements-board/README.md",
+      "target": "checksums.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/foundations/order-brief.md",
+      "target": "../mermaid/order-flow/requirements.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/foundations/order-brief.md",
+      "target": "../mermaid/order-flow/verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/foundations/order-brief.md",
+      "target": "../mermaid/order-flow/order-flow.mmd",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/graphviz/dependencies/README.md",
+      "target": "../../../docs/chapters/07-graphviz.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/graphviz/dependencies/README.md",
+      "target": "dependencies.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/graphviz/dependencies/README.md",
+      "target": "../../../prompts/graphviz-dependencies.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/graphviz/dependencies/README.md",
+      "target": "verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/graphviz/dependencies/README.md",
+      "target": "generated/overview.dot",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/graphviz/dependencies/README.md",
+      "target": "generated/overview.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/graphviz/dependencies/README.md",
+      "target": "generated/overview.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/graphviz/dependencies/README.md",
+      "target": "generated/impact.dot",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/graphviz/dependencies/README.md",
+      "target": "generated/impact.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/graphviz/dependencies/README.md",
+      "target": "generated/impact.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/graphviz/dependencies/README.md",
+      "target": "generated/impact.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/mermaid/order-flow/README.md",
+      "target": "../../../docs/chapters/04-mermaid.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/mermaid/order-flow/README.md",
+      "target": "requirements.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/mermaid/order-flow/README.md",
+      "target": "verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/mermaid/order-flow/README.md",
+      "target": "../../../prompts/mermaid-order-flow.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/mermaid/order-flow/README.md",
+      "target": "order-flow.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/mermaid/order-flow/README.md",
+      "target": "order-flow.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/mermaid/order-flow/README.md",
+      "target": "order-flow.mmd",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/plantuml/payment/README.md",
+      "target": "../../../docs/chapters/06-plantuml.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/plantuml/payment/README.md",
+      "target": "requirements.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/plantuml/payment/README.md",
+      "target": "../../../prompts/plantuml-payment.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/plantuml/payment/README.md",
+      "target": "verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/plantuml/payment/README.md",
+      "target": "payment-sequence.puml",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/plantuml/payment/README.md",
+      "target": "payment-sequence.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/plantuml/payment/README.md",
+      "target": "payment-sequence.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/plantuml/payment/README.md",
+      "target": "order-state.puml",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/plantuml/payment/README.md",
+      "target": "order-state.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/plantuml/payment/README.md",
+      "target": "order-state.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/plantuml/payment/README.md",
+      "target": "payment-model.puml",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/plantuml/payment/README.md",
+      "target": "payment-model.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/plantuml/payment/README.md",
+      "target": "payment-model.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/refund-change/README.md",
+      "target": "../../docs/chapters/13-refund-project.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/refund-change/README.md",
+      "target": "requirements.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/refund-change/README.md",
+      "target": "change-impact.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/refund-change/README.md",
+      "target": "refund-flow.mmd",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/refund-change/README.md",
+      "target": "refund-flow.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/refund-change/README.md",
+      "target": "refund-flow.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/refund-change/README.md",
+      "target": "refund-state.puml",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/refund-change/README.md",
+      "target": "refund-state.svg",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/refund-change/README.md",
+      "target": "refund-state.png",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/refund-change/README.md",
+      "target": "../../prompts/partial-refund.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/refund-change/README.md",
+      "target": "scenarios.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/refund-change/README.md",
+      "target": "test-evidence.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/refund-change/README.md",
+      "target": "render-results.json",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/refund-change/README.md",
+      "target": "suite-output.txt",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/refund-change/README.md",
+      "target": "verification.md",
+      "fragment_checked": false
+    },
+    {
+      "source": "examples/refund-change/README.md",
+      "target": "checksums.json",
+      "fragment_checked": false
+    }
+  ],
+  "protected_file_count": 108,
+  "protected_files_unchanged": true,
+  "tests": {
+    "core_methods": 6,
+    "full_methods": 10,
+    "both_exit_code": 0
+  }
+}

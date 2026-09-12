@@ -122,3 +122,7 @@ make check-full
 ## 本輪里程碑
 
 本章完成後另已補齊第 1 至 3 章，並擴寫第 8 章；最新進度見 [章節索引](../chapters.md)。13 章均有樣章，整本書的通稿、乾淨環境、排版與正式發布尚未完成。
+
+## 章節導覽
+
+[全書目錄](../chapters.md) · [共用術語](../glossary.md) · [驗證狀態](../validation-status.md) · [上一章](12-automation-security.md)

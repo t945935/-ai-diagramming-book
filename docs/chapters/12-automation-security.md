@@ -27,15 +27,15 @@ make check-full
 make audit-npm
 ```
 
-| 命令 | 內容 | 依賴 | 本次結果 |
+| 命令 | 第 12 章引入時的內容 | 依賴 | 當時實測結果 |
 | --- | --- | --- | --- |
 | check-core | Graphviz 生成器三個測試、跨工具端點契約一個測試 | Python 3、make | 四個通過；本機與 GitHub runner 都成功 |
-| check-full | 目前 tests 目錄的全部八個測試，含 Mermaid／DOT 反例 | 前述工具、Mermaid CLI、Chromium、dot | 本機八個通過 |
+| check-full | 當時 tests 目錄的全部八個測試，含 Mermaid／DOT 反例 | 前述工具、Mermaid CLI、Chromium、dot | 本機八個通過 |
 | audit-npm | npm 套件漏洞公告查詢 | npm、專案套件資訊與網路 | 本次回報 0 vulnerabilities |
 
 `full` 指目前 Python 測試集合的全部，不是六套工具所有 GUI、渲染器與跨平台組合。它仍未覆蓋 D2／PlantUML 渲染、draw.io／Excalidraw 互動、印刷品質、秘密掃描或部署安全。
 
-沒有 make 時，可以直接執行 [README 的 Python 命令](../../examples/automation/README.md)。需要不同 Python 時可用 `make check-core PYTHON=python3`。正式檢查前取消不需要的 `BOOK_SOURCE_ROOT`，避免意外測到另一份副本。
+沒有 make 時，可以直接執行 [README 的 Python 命令](../../examples/automation/README.md)。需要不同 Python 時可用 `make check-core PYTHON=python3`。正式檢查前取消不需要的 `BOOK_SOURCE_ROOT` 與 `REFUND_SCENARIOS`，避免意外測到另一份副本。
 
 ## 12.3 工作流程為什麼先保持小
 
@@ -107,3 +107,7 @@ main 是變動中的工作版本。正式隨書版本需先確認授權、章節
 - [npm ci](https://docs.npmjs.com/cli/v11/commands/npm-ci)
 
 本章將可執行檢查與人工發布關卡分開，讓讀者知道每一個綠燈究竟證明了什麼。
+
+## 章節導覽
+
+[全書目錄](../chapters.md) · [共用術語](../glossary.md) · [驗證狀態](../validation-status.md) · [上一章](11-cross-tool.md) · [下一章](13-refund-project.md)

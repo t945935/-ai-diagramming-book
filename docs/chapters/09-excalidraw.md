@@ -1,4 +1,4 @@
-# 第 9 章：Excalidraw——先把未定的事留在白板上
+# 第 9 章：Excalidraw，先把未定的事留在白板上
 
 > 樣章草稿。案例與需求均為虛構教學設定，不是真實會議紀錄。
 
@@ -68,3 +68,7 @@ ID 必須唯一且穩定。文字內容改了，不要任意重建全部 ID，�
 - [官方影像與場景匯出工具](https://docs.excalidraw.com/docs/@excalidraw/excalidraw/api/utils/export)
 
 六套工具的第一輪範例至此齊備；這不等於整本書已完成，也不等於所有平台和自動化發布都已驗證。
+
+## 章節導覽
+
+[全書目錄](../chapters.md) · [共用術語](../glossary.md) · [驗證狀態](../validation-status.md) · [上一章](08-drawio.md) · [下一章](10-debugging.md)

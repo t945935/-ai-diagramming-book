@@ -1,4 +1,4 @@
-# 第 7 章　Graphviz：從依賴資料產圖與篩選影響
+# 第 7 章：Graphviz，從依賴資料產圖與篩選影響
 
 > 樣章草稿。本章包含可執行的 Python 產圖程式、測試與 Graphviz 成品。資料是刻意設計的虛構教學清單，不是掃描真實程式庫的結果。
 
@@ -31,7 +31,7 @@ digraph dependencies {
 }
 ```
 
-`digraph` 表示有向圖，`->` 表示有向邊，`rankdir=LR` 讓分層佈局偏向由左至右。ID 與顯示文字分開，中文標籤指定字型。
+`digraph` 表示有向圖，`->` 表示有向邊，`rankdir=LR` 讓分層佈局偏向由左至右。ID 與顯示文字分開；上方最小片段未指定字型，完整生成範例另設 Noto Sans CJK TC。
 
 本例用 `dot` 佈局，適合有方向的依賴圖。它會嘗試減少交叉，不保證沒有交叉。不要把 DOT 語法與 dot 引擎混為一談；Graphviz 還有其他引擎，本章沒有替它們做比較測試。
 
@@ -118,4 +118,8 @@ dot -Tpng examples/graphviz/dependencies/generated/impact.dot -o examples/graphv
 - [dot 佈局](https://graphviz.org/docs/layouts/dot/)
 - [下載與安裝](https://graphviz.org/download/)
 
-本章展示可重現的小型分析流程，不宣稱已從真實倉庫抽取依賴、測試大型效能或完成 CI。
+本章展示可重現的小型分析流程，沒有從真實程式庫抽取依賴或測試大型效能。首次製作未配置 CI；現行核心 CI 已執行生成器測試，但不重新渲染本章圖，詳見 [驗證狀態導讀](../validation-status.md)。
+
+## 章節導覽
+
+[全書目錄](../chapters.md) · [共用術語](../glossary.md) · [驗證狀態](../validation-status.md) · [上一章](06-plantuml.md) · [下一章](08-drawio.md)

@@ -1,4 +1,4 @@
-# 第 6 章　PlantUML：把付款互動與狀態講清楚
+# 第 6 章：PlantUML，把付款互動與狀態講清楚
 
 > 樣章草稿。三個範例均以 PlantUML 1.2026.8 在本機完成語法檢查及 SVG／PNG 渲染；未執行真實金流程式或跨平台測試。
 
@@ -95,7 +95,7 @@ java -Djava.awt.headless=true -DPLANTUML_SECURITY_PROFILE=SANDBOX -jar /path/to/
 java -Djava.awt.headless=true -DPLANTUML_SECURITY_PROFILE=SANDBOX -jar /path/to/plantuml-1.2026.8.jar -charset UTF-8 -tpng -failfast2 "examples/plantuml/payment/*.puml"
 ```
 
-本機沒有 Graphviz。狀態圖及類別圖明確使用 `!pragma layout smetana`，本次已成功渲染；這不代表所有 UML 圖都能在所有版本使用相同方式。`-version` 的一般 Graphviz 警告不能取代對實際範例的驗證。
+首次製作本章時，該驗證環境尚未安裝 Graphviz；第 7 章才另行配置。狀態圖及類別圖明確使用 `!pragma layout smetana`，本次已成功渲染；這不代表所有 UML 圖都能在所有版本使用相同方式。`-version` 的一般 Graphviz 警告不能取代對實際範例的驗證。
 
 安全設定採 SANDBOX，不載入遠端 include 或外部圖示。不要把公司機密流程貼到公開 PlantUML 伺服器；圖檔也可能含原始碼中繼資料，公開前應把來源與成品一起檢查。
 
@@ -122,3 +122,7 @@ java -Djava.awt.headless=true -DPLANTUML_SECURITY_PROFILE=SANDBOX -jar /path/to/
 - [安全設定](https://plantuml.com/security)
 
 官方 CLI 文件包含新介面說明；本章使用的是已在指定版本實測的命令，未把文件中的未測選項當成已驗證功能。
+
+## 章節導覽
+
+[全書目錄](../chapters.md) · [共用術語](../glossary.md) · [驗證狀態](../validation-status.md) · [上一章](05-d2.md) · [下一章](07-graphviz.md)

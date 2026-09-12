@@ -8,6 +8,8 @@
 
 直接實作：[第 4 章 Mermaid](docs/chapters/04-mermaid.md) · [執行範例](examples/mermaid/order-flow/README.md) · [驗證與已知限制](examples/mermaid/order-flow/verification.md)
 
+13 章已完成第一遍一致性通稿，仍是樣章；[通稿紀錄](docs/editorial/first-pass.md) 列出修正與未完成項。
+
 ## 從這裡開始
 
 - [初次使用與下載](docs/getting-started.md)
